@@ -1,0 +1,12 @@
+C:\Users\user\OneDrive\Programming studies\Tomedia Web Team\AutoWhatsapp\02 - Business Model Layer\bin\Release\netcoreapp3.1\02 - Business Model Layer.deps.json
+C:\Users\user\OneDrive\Programming studies\Tomedia Web Team\AutoWhatsapp\02 - Business Model Layer\bin\Release\netcoreapp3.1\02 - Business Model Layer.dll
+C:\Users\user\OneDrive\Programming studies\Tomedia Web Team\AutoWhatsapp\02 - Business Model Layer\bin\Release\netcoreapp3.1\02 - Business Model Layer.pdb
+C:\Users\user\OneDrive\Programming studies\Tomedia Web Team\AutoWhatsapp\02 - Business Model Layer\bin\Release\netcoreapp3.1\01 - Data Access Layer.dll
+C:\Users\user\OneDrive\Programming studies\Tomedia Web Team\AutoWhatsapp\02 - Business Model Layer\bin\Release\netcoreapp3.1\01 - Data Access Layer.pdb
+C:\Users\user\OneDrive\Programming studies\Tomedia Web Team\AutoWhatsapp\02 - Business Model Layer\obj\Release\netcoreapp3.1\02 - Business Model Layer.csprojAssemblyReference.cache
+C:\Users\user\OneDrive\Programming studies\Tomedia Web Team\AutoWhatsapp\02 - Business Model Layer\obj\Release\netcoreapp3.1\02 - Business Model Layer.AssemblyInfoInputs.cache
+C:\Users\user\OneDrive\Programming studies\Tomedia Web Team\AutoWhatsapp\02 - Business Model Layer\obj\Release\netcoreapp3.1\02 - Business Model Layer.AssemblyInfo.cs
+C:\Users\user\OneDrive\Programming studies\Tomedia Web Team\AutoWhatsapp\02 - Business Model Layer\obj\Release\netcoreapp3.1\02 - Business Model Layer.csproj.CoreCompileInputs.cache
+C:\Users\user\OneDrive\Programming studies\Tomedia Web Team\AutoWhatsapp\02 - Business Model Layer\obj\Release\netcoreapp3.1\02 - Business Model Layer.csproj.CopyComplete
+C:\Users\user\OneDrive\Programming studies\Tomedia Web Team\AutoWhatsapp\02 - Business Model Layer\obj\Release\netcoreapp3.1\02 - Business Model Layer.dll
+C:\Users\user\OneDrive\Programming studies\Tomedia Web Team\AutoWhatsapp\02 - Business Model Layer\obj\Release\netcoreapp3.1\02 - Business Model Layer.pdb

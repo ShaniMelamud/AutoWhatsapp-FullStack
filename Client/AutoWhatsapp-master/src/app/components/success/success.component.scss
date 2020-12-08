@@ -1,0 +1,120 @@
+$background-color: #25d366;
+$secondary-color: #23e9b4;
+.success-comp-wrap {
+  background: url("../../../assets/transparent-bg-with-icons.png");
+  background-size: cover;
+  background-repeat: repeat;
+  width: 100%;
+  min-height: 100vh;
+  padding: 1.5rem;
+}
+.success-section {
+  min-height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  
+
+  .robot-img {
+    width: 90%;
+    height: auto;
+  }
+
+  .text-section {
+    padding: 1.2rem;
+    font-size: 2rem;
+
+    .main-sec-heading {
+      font-size: 2rem;
+      font-weight: 600;
+      font-family: "Ploni DL 1.1 AAA Light";
+    }
+    .sub-sec-heading {
+      font-size: 1.5rem;
+      font-family: "Ploni DL 1.1 AAA Light";
+    }
+    .robot-button {
+      width: 100%;
+      height: 90px;
+      font-size: 1.5rem;
+      font-family: "Ploni DL 1.1 AAA Light";
+      margin: 1.2rem 0;
+      padding: 0 2rem;
+      border-radius: 15px;
+      background-color: $background-color;
+      line-height: 1.5rem;
+      white-space: normal;
+      word-wrap: break-word;
+    }
+
+    .cancel-button,
+    .send-button {
+      width: 100%;
+      height: 90px;
+      font-size: 1.5rem;
+      margin: 1rem 0;
+      padding: 0 2rem;
+      border-radius: 15px;
+      background-color: #05131e;
+      font-family: "Ploni DL 1.1 AAA Light";
+      line-height: 1.5rem;
+      white-space: normal;
+      word-wrap: break-word;
+    }
+
+    .signup-button {
+      width: 100%;
+      height: 150px;
+      font-size: 1.5rem;
+      margin: 1.2rem 0;
+      padding: 0 2rem;
+      border-radius: 15px;
+      font-family: "Ploni DL 1.1 AAA Light";
+      line-height: 1.5rem;
+      white-space: normal;
+      word-wrap: break-word;
+      background-color: #2feab3;
+    }
+
+    .second-signup-btn {
+      background-color: #00e4c1 !important;
+      font-family: "Ploni DL 1.1 AAA Light";
+    }
+    .cancel-button {
+      font-family: "Ploni DL 1.1 AAA Light";
+      background-color: #5bb9a7 !important;
+    }
+  }
+
+  .mt-4 {
+    margin-top: 2rem;
+  }
+
+  .my-button-row > div {
+    padding: 0 0.4rem;
+  }
+}
+@media (min-width: 992px) {
+  .robot-img {
+    margin-top: 6rem;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 991px) {
+  .robot-img {
+    width: 60% !important;
+    min-height: 300px;
+    max-height: 350px;
+    margin-top: 2rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .robot-img {
+    width: 80% !important;
+    min-height: 300px;
+    margin-top: 2rem;
+  }
+}

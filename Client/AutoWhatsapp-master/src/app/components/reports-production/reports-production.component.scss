@@ -1,0 +1,142 @@
+.report-comp-wrap {
+  padding: 4rem;
+
+  .report-heading {
+    letter-spacing: 2px;
+    font-family: "Ploni DL 1.1 AAA Light";
+    color: #3a694c;
+    font-size: 1.4rem;
+    line-height: 1.75rem;
+    margin-bottom: 3rem;
+    font-weight: 550;
+    text-shadow: 0px 0px 4px #79797952;
+  }
+  .report-date-section {
+    .date-form {
+      margin: 1.2rem 0;
+      text-align: center;
+      mat-form-field {
+        margin: 0 1rem;
+        font-size: 1.2rem;
+      }
+    }
+    .action {
+      margin-top: 2rem;
+      text-align: center;
+      .profile-btn {
+        margin-top: 1.2rem;
+        width: 60%;
+        font-size: 1.7rem;
+        padding: 0.5rem;
+        height: 70px;
+        border-radius: 10px;
+        background-color: #06d755;
+        letter-spacing: 2px;
+        font-family: "Ploni DL 1.1 AAA Light";
+        text-shadow: 0px 0px 4px #79797952;
+      }
+    }
+  }
+}
+
+:host ::ng-deep {
+  .check-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 2rem 0;
+    mat-checkbox {
+      margin: 0.5rem;
+      font-size: 1.5rem;
+      font-family: "Ploni DL 1.1 AAA Light";
+      color: #3a694c;
+      text-shadow: 0px 0px 4px #79797952;
+    }
+    .mat-checkbox .mat-checkbox-frame {
+      border-color: #06d755;
+      background-color: #dddddd00;
+      width: 22px;
+      height: 22px;
+    }
+
+    .mat-checkbox-indeterminate.mat-accent .mat-checkbox-background,
+    .mat-checkbox-checked.mat-accent .mat-checkbox-background {
+      width: 22px;
+      height: 22px;
+      background: #06d755;
+    }
+
+    .mat-checkbox-checked:not(.mat-checkbox-disabled).mat-accent
+      .mat-ripple-element,
+    .mat-checkbox:active:not(.mat-checkbox-disabled).mat-accent
+      .mat-ripple-element {
+      background: #06d755;
+    }
+
+    .mat-checkbox-layout .mat-checkbox-label {
+      line-height: 24px;
+      position: relative;
+      top: 2px;
+      margin-right: 10px;
+    }
+    .mat-checkbox .mat-checkbox-ripple {
+      position: absolute;
+      left: calc(50% - 23px);
+      top: calc(50% - 18px);
+      height: 40px;
+      width: 40px;
+      z-index: 1;
+      pointer-events: none;
+    }
+  }
+  .mat-calendar-body-selected {
+    background-color: #06d755 !important;
+    color: #fff;
+  }
+  .mat-calendar-body-cell-content {
+    background-color: #ffcc00 !important;
+  }
+  .date-form {
+    .mat-datepicker-toggle {
+      color: #06d755;
+    }
+    .mat-form-field-label {
+      /*change color of label*/
+      color: #06d755;
+    }
+    .mat-form-field-underline {
+      /*change color of underline*/
+      background-color: #06d755;
+    }
+    .mat-form-field-ripple {
+      /*change color of underline when focused*/
+      background-color: #06d755;
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  .report-comp-wrap {
+    padding: 3rem;
+    .report-date-section {
+      .action {
+        .profile-btn {
+          width: 80%;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  .report-comp-wrap {
+    padding: 2rem;
+    .report-date-section {
+      .action {
+        .profile-btn {
+          width: 95%;
+        }
+      }
+    }
+  }
+}

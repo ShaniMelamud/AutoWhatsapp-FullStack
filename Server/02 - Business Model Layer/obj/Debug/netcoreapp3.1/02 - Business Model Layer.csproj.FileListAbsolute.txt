@@ -1,0 +1,60 @@
+C:\Users\user\OneDrive\Programming studies\Homework\AutoWhatsapp\02 - Business Model Layer\bin\Debug\netcoreapp3.1\02 - Business Model Layer.deps.json
+C:\Users\user\OneDrive\Programming studies\Homework\AutoWhatsapp\02 - Business Model Layer\bin\Debug\netcoreapp3.1\02 - Business Model Layer.dll
+C:\Users\user\OneDrive\Programming studies\Homework\AutoWhatsapp\02 - Business Model Layer\bin\Debug\netcoreapp3.1\02 - Business Model Layer.pdb
+C:\Users\user\OneDrive\Programming studies\Homework\AutoWhatsapp\02 - Business Model Layer\bin\Debug\netcoreapp3.1\01 - Data Access Layer.dll
+C:\Users\user\OneDrive\Programming studies\Homework\AutoWhatsapp\02 - Business Model Layer\bin\Debug\netcoreapp3.1\01 - Data Access Layer.pdb
+C:\Users\user\OneDrive\Programming studies\Homework\AutoWhatsapp\02 - Business Model Layer\obj\Debug\netcoreapp3.1\02 - Business Model Layer.csprojAssemblyReference.cache
+C:\Users\user\OneDrive\Programming studies\Homework\AutoWhatsapp\02 - Business Model Layer\obj\Debug\netcoreapp3.1\02 - Business Model Layer.AssemblyInfoInputs.cache
+C:\Users\user\OneDrive\Programming studies\Homework\AutoWhatsapp\02 - Business Model Layer\obj\Debug\netcoreapp3.1\02 - Business Model Layer.AssemblyInfo.cs
+C:\Users\user\OneDrive\Programming studies\Homework\AutoWhatsapp\02 - Business Model Layer\obj\Debug\netcoreapp3.1\02 - Business Model Layer.csproj.CopyComplete
+C:\Users\user\OneDrive\Programming studies\Homework\AutoWhatsapp\02 - Business Model Layer\obj\Debug\netcoreapp3.1\02 - Business Model Layer.dll
+C:\Users\user\OneDrive\Programming studies\Homework\AutoWhatsapp\02 - Business Model Layer\obj\Debug\netcoreapp3.1\02 - Business Model Layer.pdb
+C:\Users\user\OneDrive\Programming studies\Homework\AutoWhatsapp\02 - Business Model Layer\obj\Debug\netcoreapp3.1\02 - Business Model Layer.csproj.CoreCompileInputs.cache
+C:\Users\user\OneDrive\Programming studies\Tomedia Web Team\AutoWhatsapp\02 - Business Model Layer\bin\Debug\netcoreapp3.1\02 - Business Model Layer.deps.json
+C:\Users\user\OneDrive\Programming studies\Tomedia Web Team\AutoWhatsapp\02 - Business Model Layer\bin\Debug\netcoreapp3.1\02 - Business Model Layer.dll
+C:\Users\user\OneDrive\Programming studies\Tomedia Web Team\AutoWhatsapp\02 - Business Model Layer\bin\Debug\netcoreapp3.1\02 - Business Model Layer.pdb
+C:\Users\user\OneDrive\Programming studies\Tomedia Web Team\AutoWhatsapp\02 - Business Model Layer\bin\Debug\netcoreapp3.1\01 - Data Access Layer.dll
+C:\Users\user\OneDrive\Programming studies\Tomedia Web Team\AutoWhatsapp\02 - Business Model Layer\bin\Debug\netcoreapp3.1\01 - Data Access Layer.pdb
+C:\Users\user\OneDrive\Programming studies\Tomedia Web Team\AutoWhatsapp\02 - Business Model Layer\obj\Debug\netcoreapp3.1\02 - Business Model Layer.csprojAssemblyReference.cache
+C:\Users\user\OneDrive\Programming studies\Tomedia Web Team\AutoWhatsapp\02 - Business Model Layer\obj\Debug\netcoreapp3.1\02 - Business Model Layer.AssemblyInfoInputs.cache
+C:\Users\user\OneDrive\Programming studies\Tomedia Web Team\AutoWhatsapp\02 - Business Model Layer\obj\Debug\netcoreapp3.1\02 - Business Model Layer.AssemblyInfo.cs
+C:\Users\user\OneDrive\Programming studies\Tomedia Web Team\AutoWhatsapp\02 - Business Model Layer\obj\Debug\netcoreapp3.1\02 - Business Model Layer.csproj.CopyComplete
+C:\Users\user\OneDrive\Programming studies\Tomedia Web Team\AutoWhatsapp\02 - Business Model Layer\obj\Debug\netcoreapp3.1\02 - Business Model Layer.dll
+C:\Users\user\OneDrive\Programming studies\Tomedia Web Team\AutoWhatsapp\02 - Business Model Layer\obj\Debug\netcoreapp3.1\02 - Business Model Layer.pdb
+C:\Users\user\OneDrive\Programming studies\Tomedia Web Team\AutoWhatsapp\02 - Business Model Layer\obj\Debug\netcoreapp3.1\02 - Business Model Layer.csproj.CoreCompileInputs.cache
+C:\Users\david\OneDrive\Documents\Tomedia Web Team\AutoWhatsapp\AutoWhatsapp-REALmaster\02 - Business Model Layer\bin\Debug\netcoreapp3.1\02 - Business Model Layer.deps.json
+C:\Users\david\OneDrive\Documents\Tomedia Web Team\AutoWhatsapp\AutoWhatsapp-REALmaster\02 - Business Model Layer\bin\Debug\netcoreapp3.1\02 - Business Model Layer.dll
+C:\Users\david\OneDrive\Documents\Tomedia Web Team\AutoWhatsapp\AutoWhatsapp-REALmaster\02 - Business Model Layer\bin\Debug\netcoreapp3.1\02 - Business Model Layer.pdb
+C:\Users\david\OneDrive\Documents\Tomedia Web Team\AutoWhatsapp\AutoWhatsapp-REALmaster\02 - Business Model Layer\bin\Debug\netcoreapp3.1\01 - Data Access Layer.dll
+C:\Users\david\OneDrive\Documents\Tomedia Web Team\AutoWhatsapp\AutoWhatsapp-REALmaster\02 - Business Model Layer\bin\Debug\netcoreapp3.1\01 - Data Access Layer.pdb
+C:\Users\david\OneDrive\Documents\Tomedia Web Team\AutoWhatsapp\AutoWhatsapp-REALmaster\02 - Business Model Layer\obj\Debug\netcoreapp3.1\02 - Business Model Layer.csprojAssemblyReference.cache
+C:\Users\david\OneDrive\Documents\Tomedia Web Team\AutoWhatsapp\AutoWhatsapp-REALmaster\02 - Business Model Layer\obj\Debug\netcoreapp3.1\02 - Business Model Layer.AssemblyInfoInputs.cache
+C:\Users\david\OneDrive\Documents\Tomedia Web Team\AutoWhatsapp\AutoWhatsapp-REALmaster\02 - Business Model Layer\obj\Debug\netcoreapp3.1\02 - Business Model Layer.AssemblyInfo.cs
+C:\Users\david\OneDrive\Documents\Tomedia Web Team\AutoWhatsapp\AutoWhatsapp-REALmaster\02 - Business Model Layer\obj\Debug\netcoreapp3.1\02 - Business Model Layer.csproj.CoreCompileInputs.cache
+C:\Users\david\OneDrive\Documents\Tomedia Web Team\AutoWhatsapp\AutoWhatsapp-REALmaster\02 - Business Model Layer\obj\Debug\netcoreapp3.1\02 - Business Model Layer.csproj.CopyComplete
+C:\Users\david\OneDrive\Documents\Tomedia Web Team\AutoWhatsapp\AutoWhatsapp-REALmaster\02 - Business Model Layer\obj\Debug\netcoreapp3.1\02 - Business Model Layer.dll
+C:\Users\david\OneDrive\Documents\Tomedia Web Team\AutoWhatsapp\AutoWhatsapp-REALmaster\02 - Business Model Layer\obj\Debug\netcoreapp3.1\02 - Business Model Layer.pdb
+C:\Projects John Bryce\Auto Whatsapp\most updated version\AutoWhatsapp---merged-master\AutoWhatsapp---merged-master\02 - Business Model Layer\bin\Debug\netcoreapp3.1\02 - Business Model Layer.deps.json
+C:\Projects John Bryce\Auto Whatsapp\most updated version\AutoWhatsapp---merged-master\AutoWhatsapp---merged-master\02 - Business Model Layer\bin\Debug\netcoreapp3.1\02 - Business Model Layer.dll
+C:\Projects John Bryce\Auto Whatsapp\most updated version\AutoWhatsapp---merged-master\AutoWhatsapp---merged-master\02 - Business Model Layer\bin\Debug\netcoreapp3.1\02 - Business Model Layer.pdb
+C:\Projects John Bryce\Auto Whatsapp\most updated version\AutoWhatsapp---merged-master\AutoWhatsapp---merged-master\02 - Business Model Layer\bin\Debug\netcoreapp3.1\01 - Data Access Layer.dll
+C:\Projects John Bryce\Auto Whatsapp\most updated version\AutoWhatsapp---merged-master\AutoWhatsapp---merged-master\02 - Business Model Layer\bin\Debug\netcoreapp3.1\01 - Data Access Layer.pdb
+C:\Projects John Bryce\Auto Whatsapp\most updated version\AutoWhatsapp---merged-master\AutoWhatsapp---merged-master\02 - Business Model Layer\obj\Debug\netcoreapp3.1\02 - Business Model Layer.csprojAssemblyReference.cache
+C:\Projects John Bryce\Auto Whatsapp\most updated version\AutoWhatsapp---merged-master\AutoWhatsapp---merged-master\02 - Business Model Layer\obj\Debug\netcoreapp3.1\02 - Business Model Layer.AssemblyInfoInputs.cache
+C:\Projects John Bryce\Auto Whatsapp\most updated version\AutoWhatsapp---merged-master\AutoWhatsapp---merged-master\02 - Business Model Layer\obj\Debug\netcoreapp3.1\02 - Business Model Layer.AssemblyInfo.cs
+C:\Projects John Bryce\Auto Whatsapp\most updated version\AutoWhatsapp---merged-master\AutoWhatsapp---merged-master\02 - Business Model Layer\obj\Debug\netcoreapp3.1\02 - Business Model Layer.csproj.CoreCompileInputs.cache
+C:\Projects John Bryce\Auto Whatsapp\most updated version\AutoWhatsapp---merged-master\AutoWhatsapp---merged-master\02 - Business Model Layer\obj\Debug\netcoreapp3.1\02 - Business Model Layer.csproj.CopyComplete
+C:\Projects John Bryce\Auto Whatsapp\most updated version\AutoWhatsapp---merged-master\AutoWhatsapp---merged-master\02 - Business Model Layer\obj\Debug\netcoreapp3.1\02 - Business Model Layer.dll
+C:\Projects John Bryce\Auto Whatsapp\most updated version\AutoWhatsapp---merged-master\AutoWhatsapp---merged-master\02 - Business Model Layer\obj\Debug\netcoreapp3.1\02 - Business Model Layer.pdb
+C:\Projects John Bryce\Auto Whatsapp\most updated version\AutoWhatsapp---merged-master\AutoWhatsapp---merged-master\Last Version\Server\02 - Business Model Layer\bin\Debug\netcoreapp3.1\02 - Business Model Layer.deps.json
+C:\Projects John Bryce\Auto Whatsapp\most updated version\AutoWhatsapp---merged-master\AutoWhatsapp---merged-master\Last Version\Server\02 - Business Model Layer\bin\Debug\netcoreapp3.1\02 - Business Model Layer.dll
+C:\Projects John Bryce\Auto Whatsapp\most updated version\AutoWhatsapp---merged-master\AutoWhatsapp---merged-master\Last Version\Server\02 - Business Model Layer\bin\Debug\netcoreapp3.1\02 - Business Model Layer.pdb
+C:\Projects John Bryce\Auto Whatsapp\most updated version\AutoWhatsapp---merged-master\AutoWhatsapp---merged-master\Last Version\Server\02 - Business Model Layer\bin\Debug\netcoreapp3.1\01 - Data Access Layer.dll
+C:\Projects John Bryce\Auto Whatsapp\most updated version\AutoWhatsapp---merged-master\AutoWhatsapp---merged-master\Last Version\Server\02 - Business Model Layer\bin\Debug\netcoreapp3.1\01 - Data Access Layer.pdb
+C:\Projects John Bryce\Auto Whatsapp\most updated version\AutoWhatsapp---merged-master\AutoWhatsapp---merged-master\Last Version\Server\02 - Business Model Layer\obj\Debug\netcoreapp3.1\02 - Business Model Layer.csprojAssemblyReference.cache
+C:\Projects John Bryce\Auto Whatsapp\most updated version\AutoWhatsapp---merged-master\AutoWhatsapp---merged-master\Last Version\Server\02 - Business Model Layer\obj\Debug\netcoreapp3.1\02 - Business Model Layer.AssemblyInfoInputs.cache
+C:\Projects John Bryce\Auto Whatsapp\most updated version\AutoWhatsapp---merged-master\AutoWhatsapp---merged-master\Last Version\Server\02 - Business Model Layer\obj\Debug\netcoreapp3.1\02 - Business Model Layer.AssemblyInfo.cs
+C:\Projects John Bryce\Auto Whatsapp\most updated version\AutoWhatsapp---merged-master\AutoWhatsapp---merged-master\Last Version\Server\02 - Business Model Layer\obj\Debug\netcoreapp3.1\02 - Business Model Layer.csproj.CoreCompileInputs.cache
+C:\Projects John Bryce\Auto Whatsapp\most updated version\AutoWhatsapp---merged-master\AutoWhatsapp---merged-master\Last Version\Server\02 - Business Model Layer\obj\Debug\netcoreapp3.1\02 - Business Model Layer.csproj.CopyComplete
+C:\Projects John Bryce\Auto Whatsapp\most updated version\AutoWhatsapp---merged-master\AutoWhatsapp---merged-master\Last Version\Server\02 - Business Model Layer\obj\Debug\netcoreapp3.1\02 - Business Model Layer.dll
+C:\Projects John Bryce\Auto Whatsapp\most updated version\AutoWhatsapp---merged-master\AutoWhatsapp---merged-master\Last Version\Server\02 - Business Model Layer\obj\Debug\netcoreapp3.1\02 - Business Model Layer.pdb

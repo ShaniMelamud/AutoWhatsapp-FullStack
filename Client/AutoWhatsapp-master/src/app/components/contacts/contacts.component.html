@@ -1,0 +1,172 @@
+<div class="contact-comp-wrap">
+    <h2 class="main-heading">
+        כאן תוכל להעלות את רשימת אנשי הקשר שלך בכדי שתוכל לשלוח הודעות בקלות.
+    </h2>
+
+    <div class="upload-section">
+        <div class="upload-actions">
+            <div class="user-box">
+                <a (click)="openDialog(dialogOne)">
+                    <div class="img-box">
+                        <img src="assets/peoples.png" class="upload-img" alt="" />
+                    </div>
+                </a>
+                <p class="title">ניהול אנשי קשר</p>
+            </div>
+            <div class="add-box">
+                <a (click)="openDialogTwo(dialogTwo)">
+                    <div class="img-box">
+                        <img src="assets/plus.png" class="upload-img" alt="" />
+                    </div>
+                </a>
+                <p class="title">איש קשר חדש</p>
+            </div>
+            <div class="upload-box">
+                <a (click)="openDialogTwo(dialogThree)">
+                    <img src="assets/upload.png" class="upload-img" alt="" />
+                </a>
+                <p class="title">העלה קובץ</p>
+                <p class="sub-title">קובץ מסוג Excel/Csv</p>
+            </div>
+        </div>
+
+        <div class="bottom-link">
+            <div class="link">
+                <a routerLink="" (click)="getExampleFile()" class="link-text">הורד קובץ דוגמא</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<ng-template #dialogOne>
+    <div class="modal-wrap modal-wrap-one">
+        <i class="material-icons icon-close" (click)="onClose()">close</i>
+        <h3 class="heading">אנשי הקשר שלך:</h3>
+        <div class="search-form">
+            <mat-form-field [style.fontSize.px]="22">
+                <input [(ngModel)]="changeStr" (ngModelChange)="search()" matInput placeholder="חיפוש..." type="text"
+                    class="example-right-align" />
+                <span matSuffix><i class="material-icons search-icon">search</i></span>
+            </mat-form-field>
+        </div>
+        <div class="list" style="overflow: none !important; height: 400px;">
+            <div class="list-item" *ngFor="let c of contactsToShow; index as i">
+                <div class="content">
+                        
+                    <p class="name">{{c.contactName}}</p>
+                    <p class="number">{{c.contactPhone}}</p>
+                    <p class="email">{{c.contactEmail}}</p>
+                </div>
+                <div class="actions">
+                    <i class="material-icons icon-edit" (click)="getSingleContactByID(c.contactId)" (click)="openDialogTwo(dialogFour)" >edit</i>
+                    <i class="material-icons icon-del" (click)="deleteContact(c.contactId)">delete_forever</i>
+                </div>
+            </div>
+        </div>
+        <div class="action">
+            <button mat-raised-button class="btn-search">שלח הודעה</button>
+        </div>
+    </div>
+</ng-template>
+
+<ng-template #dialogTwo>
+    <div class="modal-wrap modal-wrap-two">
+        <i class="material-icons icon-close" (click)="onClose()">close</i>
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
+                <div class="form">
+                    <h4 class="form-heading">הוסף איש קשר</h4>
+                    <form #addContactForm="ngForm" (submit)="AddContact()">
+                        <mat-form-field [style.fontSize.px]="20" hideRequiredMarker>
+                            <input matInput placeholder="שם מלא" type="text" class="" name="fullName"
+                                [(ngModel)]="newContact.contactName" required />
+                                <mat-error>שדה חובה</mat-error>
+                        </mat-form-field>
+                        <mat-form-field [style.fontSize.px]="20" hideRequiredMarker>
+                            <input matInput placeholder="מספר וואטספ" type="text" class="" name="phoneNumber"
+                                [(ngModel)]="newContact.contactPhone" required />
+                                <mat-error>שדה חובה</mat-error>
+                            </mat-form-field>
+                        <mat-form-field [style.fontSize.px]="20">
+                            <input matInput placeholder="דואר אלקטרוני" type="text" class="" name="email"
+                                [(ngModel)]="newContact.contactEmail" />
+                        </mat-form-field>
+                        <div class="action">
+                            <button [disabled]="!addContactForm.form.valid" mat-raised-button class="btn-modal-two">הוסף</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
+                <div class="img-box">
+                    <img src="assets/laptop.png" alt="" />
+                </div>
+            </div>
+        </div>
+    </div>
+</ng-template>
+<ng-template #dialogFour>
+    <div class="modal-wrap modal-wrap-two">
+        <i class="material-icons icon-close" (click)="onClose()">close</i>
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
+                <div class="form">
+                    <h4 class="form-heading">ערוך איש קשר</h4>
+                    <form #UpdateContactForm="ngForm" (submit)="updateContact()">
+                        <mat-form-field [style.fontSize.px]="20" hideRequiredMarker>
+                            <label>שם מלא</label>
+                            <input matInput  type="text" class="" name="fullName"
+                                [(ngModel)]="contact.contactName" required />
+                                <mat-error>שדה חובה</mat-error>
+                            </mat-form-field>
+                        <mat-form-field [style.fontSize.px]="20" hideRequiredMarker>
+                            <label>נייד</label>
+                            <input matInput  type="text" class="" name="phoneNumber"
+                                [(ngModel)]="contact.contactPhone" required />
+                                <mat-error>שדה חובה</mat-error>
+                        </mat-form-field>
+                        <mat-form-field [style.fontSize.px]="20">
+                            <label>דואר אלקטרוני</label>
+                            <input matInput type="text" class="" name="email"
+                                [(ngModel)]="contact.contactEmail" />
+                        </mat-form-field>
+                        <div class="action">
+                            <button [disabled]="!UpdateContactForm.form.valid" mat-raised-button class="btn-modal-two" type="submit">שמור</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
+                <div class="img-box">
+                    <img src="assets/laptop.png" alt="" />
+                </div>
+            </div>
+        </div>
+    </div>
+</ng-template>
+
+
+<ng-template #dialogThree>
+    <div class="modal-wrap modal-wrap-three">
+        <i class="material-icons icon-close" (click)="onClose()">close</i>
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
+                <div class="form">
+                    <h4 class="form-heading">העלאת קבצים</h4>
+                    <form [formGroup]="fileUploadForm" (ngSubmit)="onFormSubmit()">
+                            <input placeholder="קובץ מסוג excel/csv" type="file" class="" id="customFile" name="myfile"
+                            (change)="onFileSelect($event)" #UploadFileInput/>
+                        <div class="action">
+                            <button  mat-raised-button class="btn-modal-three" type="submit">שלח</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
+                <div class="img-box">
+                    <img src="assets/contact-us.png" alt="" />
+                </div>
+            </div>
+        </div>
+    </div>
+</ng-template>

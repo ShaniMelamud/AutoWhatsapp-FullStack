@@ -1,0 +1,43 @@
+<div class="dashboard-comp">
+    <div class="example-container" [class.example-is-mobile]="mobileQuery.matches">
+        <div class="navbar-wrap">
+            <a class="navbar-logo" routerLink="/dashboard">AutoWhatsapp</a>
+            <div class="right-menu">
+                <a class="item envelop-item"><i class="fa fa-envelope"></i>יצירת קשר</a>
+                <button class="trigger-btn" mat-icon-button (click)="snav.toggle()">
+                    <mat-icon>menu</mat-icon>
+                </button>
+            </div>
+        </div>
+
+        <mat-sidenav-container class="example-sidenav-container" [style.marginTop.px]="mobileQuery.matches ? 0 : 0">
+            <mat-sidenav #snav [mode]="mobileQuery.matches ? 'over' : 'side'" [fixedInViewport]="mobileQuery.matches"
+                fixedTopGap="64" opened="{{opened}}" position="start">
+                <mat-nav-list>
+                    <div class="sidebar">
+                        <!-- <ng-container *ngIf="!business"> -->
+                            <a mat-list-item [routerLink]="['/login']" routerLinkActive="active" *ngIf="!business">התחבר</a>
+                            <a mat-list-item [routerLink]="['/login/signup']" routerLinkActive="active" *ngIf="!business">הרשם</a>
+                        <!-- </ng-container> -->
+                        <!-- <ng-container *ngIf="business"> -->
+                            <a mat-list-item [routerLink]="['/dashboard/automatic-response']" routerLinkActive="active" *ngIf="business">מענה אוטומטי</a>
+                            <a mat-list-item [routerLink]="['/dashboard/mailing-messages']" routerLinkActive="active" *ngIf="business">הודעות תפוצה</a>
+                            <a mat-list-item [routerLink]="['/dashboard/robot-construction']" routerLinkActive="active" *ngIf="business">בניית רובוט</a>
+                            <a mat-list-item [routerLink]="['/dashboard/chat-bot']" routerLinkActive="active" *ngIf="business">רובוט</a>
+                            <a mat-list-item [routerLink]="['/dashboard/contacts']" routerLinkActive="active" *ngIf="business">אנשי קשר</a>
+                            <a mat-list-item [routerLink]="['/dashboard/reports-production']" routerLinkActive="active" *ngIf="business">הפקת דוחות</a>
+                            <a mat-list-item [routerLink]="['/dashboard/profile']" routerLinkActive="active" *ngIf="business">פרופיל</a>
+                            <a mat-list-item [routerLink]="['/dashboard/logout']" routerLinkActive="active" *ngIf="business">התנתק</a>
+                        <!-- </ng-container> -->
+                    </div>
+                </mat-nav-list>
+            </mat-sidenav>
+
+            <mat-sidenav-content>
+                <!-- <div class="dashboard-page-content"> -->
+                <router-outlet></router-outlet>
+                <!-- </div> -->
+            </mat-sidenav-content>
+        </mat-sidenav-container>
+    </div>
+</div>

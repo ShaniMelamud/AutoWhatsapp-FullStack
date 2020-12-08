@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAc2W+1rEB+06ZWkQZjICj+gAAAAACAAAAAAAQZgAAAAEAACAAAABJ6C+sGqfTlqpIi4jPDsKJTw7wKvXdDTdpFsKQLDTnYQAAAAAOgAAAAAIAACAAAADwi34lrEchgENMk+hGp8njPsXdEkASkmU8HS351ABkiyAAAACGD1JF2XQm++aaVIoGex1BCpcTcL5xfYDEudI4Yl7LxkAAAAB+YLCXQcvYvkBywfGwt6UfqzFtoj1SFcIO1wJ7xUEqDmlgz06y6ghvxjPU+6rz9FWHGUfMeos7mdq1GY20DzUt</EncryptedPassword>
+    <_PublishTargetUrl>ftp://darwin.syneticservers.com/public_aspnet</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="01 - Data Access Layer.dll">
+      <publishTime>11/10/2020 13:11:12</publishTime>
+    </File>
+    <File Include="01 - Data Access Layer.pdb">
+      <publishTime>11/10/2020 13:11:12</publishTime>
+    </File>
+    <File Include="02 - Business Model Layer.dll">
+      <publishTime>11/10/2020 13:11:13</publishTime>
+    </File>
+    <File Include="02 - Business Model Layer.pdb">
+      <publishTime>11/10/2020 13:11:13</publishTime>
+    </File>
+    <File Include="03 - Business Logic Layer.dll">
+      <publishTime>11/10/2020 13:11:15</publishTime>
+    </File>
+    <File Include="03 - Business Logic Layer.pdb">
+      <publishTime>11/10/2020 13:11:15</publishTime>
+    </File>
+    <File Include="04 - Handle Data Layer.dll">
+      <publishTime>11/10/2020 13:11:16</publishTime>
+    </File>
+    <File Include="04 - Handle Data Layer.pdb">
+      <publishTime>11/10/2020 13:11:16</publishTime>
+    </File>
+    <File Include="05 - REST API.deps.json">
+      <publishTime>11/10/2020 14:25:06</publishTime>
+    </File>
+    <File Include="05 - REST API.dll">
+      <publishTime>11/10/2020 14:25:05</publishTime>
+    </File>
+    <File Include="05 - REST API.exe">
+      <publishTime>11/10/2020 14:25:05</publishTime>
+    </File>
+    <File Include="05 - REST API.pdb">
+      <publishTime>11/10/2020 14:25:05</publishTime>
+    </File>
+    <File Include="05 - REST API.runtimeconfig.json">
+      <publishTime>11/10/2020 13:11:19</publishTime>
+    </File>
+    <File Include="Microsoft.Bcl.AsyncInterfaces.dll">
+      <publishTime>04/14/2020 21:39:12</publishTime>
+    </File>
+    <File Include="Microsoft.Bcl.HashCode.dll">
+      <publishTime>11/15/2019 08:38:50</publishTime>
+    </File>
+    <File Include="Microsoft.Data.SqlClient.dll">
+      <publishTime>05/15/2020 22:07:32</publishTime>
+    </File>
+    <File Include="Microsoft.EntityFrameworkCore.Abstractions.dll">
+      <publishTime>09/23/2020 16:19:02</publishTime>
+    </File>
+    <File Include="Microsoft.Identity.Client.dll">
+      <publishTime>04/29/2019 21:04:14</publishTime>
+    </File>
+    <File Include="Microsoft.IdentityModel.JsonWebTokens.dll">
+      <publishTime>10/13/2020 00:21:34</publishTime>
+    </File>
+    <File Include="Nancy.dll">
+      <publishTime>04/27/2019 10:54:46</publishTime>
+    </File>
+    <File Include="Quartz.dll">
+      <publishTime>10/31/2020 09:51:00</publishTime>
+    </File>
+    <File Include="RestSharp.dll">
+      <publishTime>09/30/2020 21:10:06</publishTime>
+    </File>
+    <File Include="runtimes/unix/lib/netcoreapp2.0/System.Runtime.Caching.dll">
+      <publishTime>05/15/2018 12:29:40</publishTime>
+    </File>
+    <File Include="runtimes/unix/lib/netcoreapp2.1/Microsoft.Data.SqlClient.dll">
+      <publishTime>05/15/2020 22:07:24</publishTime>
+    </File>
+    <File Include="runtimes/win/lib/netcoreapp2.0/System.Runtime.Caching.dll">
+      <publishTime>05/15/2018 12:29:40</publishTime>
+    </File>
+    <File Include="runtimes/win/lib/netcoreapp2.1/Microsoft.Data.SqlClient.dll">
+      <publishTime>05/15/2020 22:07:26</publishTime>
+    </File>
+    <File Include="runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll">
+      <publishTime>11/15/2019 08:53:46</publishTime>
+    </File>
+    <File Include="System.Collections.Immutable.dll">
+      <publishTime>04/14/2020 21:38:40</publishTime>
+    </File>
+    <File Include="System.Configuration.ConfigurationManager.dll">
+      <publishTime>11/15/2019 08:37:04</publishTime>
+    </File>
+    <File Include="System.Diagnostics.DiagnosticSource.dll">
+      <publishTime>04/14/2020 21:48:06</publishTime>
+    </File>
+    <File Include="System.Runtime.Caching.dll">
+      <publishTime>05/15/2018 12:29:40</publishTime>
+    </File>
+    <File Include="System.Security.Cryptography.ProtectedData.dll">
+      <publishTime>11/15/2019 08:37:42</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

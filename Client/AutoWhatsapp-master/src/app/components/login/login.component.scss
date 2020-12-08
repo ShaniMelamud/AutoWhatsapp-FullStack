@@ -1,0 +1,190 @@
+$background-color: #06d755;
+.login-comp-wrap {
+  background: url(../../../assets/login-bg.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  min-height: 100vh;
+  .navbar-wrap {
+    width: 100%;
+    padding: 1rem;
+    text-align: left;
+    height: 64px;
+    display: flex;
+  flex-direction: row;
+  align-items: center;
+  direction: ltr;
+    .navbar-logo {
+      color: white;
+      letter-spacing: 4px;
+      font-size: 1.5rem;
+      font-family: "Ploni DL 1.1 AAA Light";
+      text-shadow: 0px 0px 4px #797979;
+    }
+  }
+  .login-comp-section {
+    .headings-wrap {
+      .login-heading {
+        font-size: 4rem;
+        color: white;
+        align-self: center;
+        justify-items: center;
+        text-align: center;
+        font-family: "Ploni DL 1.1 AAA Light";
+        .smile-img {
+          width: 60px;
+          height: 60px;
+          margin-top: 28px;
+        }
+      }
+      .login-text {
+        font-size: 1.5rem;
+        color: white;
+        text-align: center;
+        align-self: center;
+        font-family: "Ploni DL 1.1 AAA Light";
+      }
+    }
+    .login-card {
+      min-height: 420px;
+      padding: 0;
+      border: 2px solid white;
+      border-radius: 12px;
+      text-align: center;
+      .login-title {
+        text-align: center;
+        font-family: "Ploni DL 1.1 AAA Light";
+      }
+      .login-form {
+        width: 100%;
+        padding: 2rem 1rem;
+        .example-full-width {
+          width: 100%;
+          font-size: 1.2rem;
+        }
+        .login-button {
+          margin-top: 1.2rem;
+          width: 100%;
+          font-size: 2.4rem;
+          padding: 0.5rem;
+          border-radius: 10px;
+          background-color: $background-color;
+          font-family: "Ploni DL 1.1 AAA Light";
+        }
+      }
+
+      .signup-link {
+        text-align: center;
+        padding: 20px;
+        font-family: "Ploni DL 1.1 AAA Light";
+        font-size: 1.4rem;
+      }
+    }
+  }
+}
+:host ::ng-deep {
+  mat-card-header {
+    background-color: $background-color;
+    border-radius: 12px;
+  }
+  .mat-card-header-text {
+    text-align: center;
+    width: 100%;
+    padding: 28px 0;
+  }
+  .mat-card-header .mat-card-title {
+    margin-bottom: 0px;
+    color: white;
+    font-size: 2.4rem;
+  }
+  .mat-raised-button {
+    box-shadow: none !important;
+  }
+}
+
+@media (min-width: 993px) {
+  .login-comp-section {
+    height: calc(100vh - 52px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .headings-wrap {
+    padding-top: 4rem;
+  }
+}
+@media (max-width: 992px) {
+  .headings-wrap {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    .login-heading {
+      font-size: 4rem;
+      color: white;
+      align-self: center;
+      justify-items: center;
+      text-align: center;
+      font-family: "Ploni DL 1.1 AAA Light";
+      .smile-img {
+        width: 60px;
+        height: 60px;
+        margin-top: 28px;
+      }
+    }
+    .login-text {
+      font-size: 1.5rem;
+      color: white;
+      text-align: center;
+      align-self: center;
+      font-family: "Ploni DL 1.1 AAA Light";
+    }
+  }
+}
+
+::ng-deep .mat-form-field {
+  .mat-input-element {
+    color: slategray;
+  }
+  .mat-form-field-label {
+    color: #c8c6c6;
+  }
+  .mat-form-field-underline {
+    background-color: #06d755;
+  }
+  .mat-form-field-ripple {
+    background-color: slategray;
+  }
+  .mat-form-field-required-marker {
+    color: slategray;
+  }
+}
+
+::ng-deep .mat-form-field.mat-focused {
+  .mat-form-field-label {
+    color: #06d755;
+  }
+  .mat-form-field-ripple {
+    background-color: #06d755;
+  }
+  .mat-form-field-required-marker {
+    color: #06d755;
+  }
+  .mat-input-element {
+    color: #06d755;
+  }
+}
+
+// ::ng-deep .mat-form-field.mat-form-field-invalid {
+//   .mat-input-element {
+//       color: #ff33cc;
+//   }
+//   .mat-form-field-label {
+//       color: #ff33cc;
+//       .mat-form-field-required-marker {
+//           color: #ff33cc;
+//       }
+//   }
+//   .mat-form-field-ripple {
+//       background-color: #ff33cc;
+//   }
+// }

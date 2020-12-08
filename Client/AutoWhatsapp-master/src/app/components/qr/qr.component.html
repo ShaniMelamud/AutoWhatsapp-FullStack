@@ -1,0 +1,62 @@
+<div class="navbar-wrap">
+  <a class="navbar-logo">AutoWhatsapp</a>
+  <div class="right-menu">
+    <a class="item"><i class="fa fa-envelope"></i>יך פותחים את</a>
+  </div>
+</div>
+<div class="qr-comp-wrap">
+  <div class="qr-main-section">
+    <h1 class="qr-main-title">פתח את Web Whatsapp</h1>
+    <h1 class="qr-main-subtitle">מהטלפון איתו נרשמת למערכת</h1>
+  </div>
+  <div class="qr-code">
+    <div class="qr-contianer">
+      <img class="qr-code-img" src="assets/qr.png" />
+      <div class="qr-footer-area">
+        <div class="my-cb f-right">
+          <mat-checkbox class="example-margin"> זכור אותי</mat-checkbox>
+        </div>
+        <div class="icons sync-icon f-left">
+          <!-- <mat-icon>sync</mat-icon> -->
+          <i class="fa fa-refresh"></i>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="qr-code-footer">
+    <p class="text">
+      <a (click)="openDialog(dialog)">איך פותחים את Web Whatsapp?</a>
+    </p>
+
+    <!-- <button mat-button (click)="openDialog()">Open dialog</button> -->
+    <div class="footer-border"></div>
+  </div>
+  <!-- <h2 mat-dialog-title align="center">איך לפתוח את Web Whatsapp?</h2>
+<mat-dialog-content class="mat-typography">
+  <ol>
+      <li>כנס לאפליקציית ה-Whatsapp במכשיר הנייד שלך</li>
+      <li>לך להגדרות/Settings</li>
+      <li>לחץ על Web Whatsapp</li>
+      <li>לחץ על סריקת קוד QR</li>
+      <li>סרוק את הקוד המופיע על המסך</li>
+  </ol>
+</mat-dialog-content>
+<mat-dialog-actions align="end">
+  <button mat-button mat-dialog-close>Cancel</button>
+</mat-dialog-actions> -->
+</div>
+
+<ng-template #dialog>
+    <div class="modal-wrap">
+      <i class="material-icons" (click)="onClose()">close</i>
+      <h3 class="heading">Whatsappכשיר ההמופיע על המסך</h3>
+      <div class="list">
+        <p>1. רוק את הקוד המופיע על המסך</p>
+        <p>2. רוק את המופיע על המסך</p>
+        <p>3. את הקוד המופיע על המסך</p>
+        <p>4. רוק את הקוד המופיע על המסך</p>
+        <p>5. את הקוד המופיע על המסך</p>
+        <p>6. רוק את הקוד המופיע על המסך</p>
+      </div>
+    </div>
+</ng-template>

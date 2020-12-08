@@ -1,0 +1,520 @@
+<!-- Original page -->
+<div class="mailing-message-comp">
+    <p class="main-text">
+        כאן תוכל לשלוח הודעות תפוצה אישיות ללקוחות שלך, וכך לתת לכל אחד יחס אישי מבלי לגזול מהזמן היקר שלך. <br> כדי
+        לעשות את זה בצורה הטובה ביותר אנחנו ממליצים
+        <span class="light-green">
+            לטעון רשימת אנשי קשר. <br>
+        </span>
+        בכל פעם שתרצו להוסיף את שם הלקוח, כל מה שתצטרכו לעשות זה לכתוב את המילה שם בתוך סוגריים מרובעים, כך: [שם] ואז
+        המערכת תרשום את שם הלקוח בכל הודעה שתשלחו.
+    </p>
+    <div class="message-section">
+        <div class="text-area-wrap">
+            <h3 class="heading">בחר תאריך ושעה לשליחת ההודעה:</h3>
+            <form class="date-form">
+                <div class="datetime-input">
+                    <mat-form-field>
+                        <input matInput type="datetime-local" placeholder="בחר תאריך ושעה" [(ngModel)]="datetimeString"
+                            name="date" (focus)="setDateTimeToNow()">
+                    </mat-form-field>
+                </div>
+            </form><br>
+            <textarea rows="8" class="text-area" placeholder="היי [שם] :), ... "
+                [(ngModel)]="messageToSend.messageContent"></textarea>
+            <div class="arrow-right"></div>
+        </div>
+        <div class="btn-wrap">
+            <button mat-raised-button color="primary" class="list-btn2"
+                (click)="sendMessage(noTextInMessageDialog, noDateChosenDialog, chooseMailingListsDialog)">
+                שלח את ההודעה
+            </button><br>
+            <button mat-raised-button color="primary" class="list-btn" (click)="openMessagesDialog(messagesDialog)">
+                שלח הודעה שנשלחה
+            </button><br>
+            <button mat-raised-button color="primary" class="list-btn"
+                (click)="openMailingListsDialog(mailingListsDialog)">
+                ניהול רשימות תפוצה
+            </button><br>
+            <button mat-raised-button color="primary" class="list-btn"
+                (click)="openCreateNewMailingListDialog(createNewMailingListDialog)">
+                הוסף רשימת תפוצה
+            </button><br>
+        </div>
+    </div>
+</div>
+
+<ng-template #noTextInMessageDialog>
+    <div class="modal-wrap modal-wrap-one">
+        <i class="material-icons icon-close" (click)="onCloseNoTextInMessageDialog()">close</i>
+        <h3 class="heading">אין אפשרות לשלוח הודעה ללא טקסט.</h3>
+        <div class="btn-wrap">
+            <button mat-raised-button color="primary" class="list-btn" (click)="onCloseNoTextInMessageDialog()">
+                חזור
+            </button>
+        </div>
+    </div>
+</ng-template>
+
+<ng-template #noDateChosenDialog>
+    <div class="modal-wrap modal-wrap-one">
+        <i class="material-icons icon-close" (click)="onCloseNoDateChosenDialog()">close</i>
+        <h3 class="heading">אין אפשרות לשלוח הודעה ללא תאריך שליחה.</h3>
+        <div class="btn-wrap">
+            <button mat-raised-button color="primary" class="list-btn" (click)="onCloseNoDateChosenDialog()">
+                חזור
+            </button>
+        </div>
+    </div>
+</ng-template>
+
+<ng-template #noMailingListChosenDialog>
+    <div class="modal-wrap modal-wrap-one">
+        <i class="material-icons icon-close" (click)="onCloseNoMailingListChosenDialog()">close</i>
+        <h3 class="heading">יש לבחור לפחות רשימת תפוצה אחת</h3>
+        <div class="btn-wrap">
+            <button mat-raised-button color="primary" class="list-btn" (click)="onCloseNoMailingListChosenDialog()">
+                חזור
+            </button>
+        </div>
+    </div>
+</ng-template>
+
+<ng-template #chooseMailingListsDialog>
+    <div class="modal-wrap modal-wrap-one">
+        <i class="material-icons icon-close" (click)="onCloseChooseMailingListsDialog(); clearSearchString()">close</i>
+        <h3 class="heading">בחר רשימת תפוצה</h3>
+        <div class="btn-wrap">
+            <button mat-raised-button color="primary" class="list-btn"
+                (click)="openCreateNewMailingListDialog(createNewMailingListDialog)">
+                צור רשימת תפוצה חדשה</button><br><br>
+        </div>
+        <div *ngIf="!(mailingLists.length>0)">
+            אין חיבור לשרת. לא ניתן לטעון נתונים
+        </div>
+        <div class="search-form">
+            <mat-form-field [style.fontSize.px]="22">
+                <input [(ngModel)]="changeStr" (ngModelChange)="searchMailingLists()" matInput placeholder="חיפוש..."
+                    type="text" class="example-right-align" />
+                <span matSuffix><i class="material-icons search-icon">search</i></span>
+            </mat-form-field>
+        </div>
+        <div class="list" *ngIf="mailingLists.length>0">
+            <div class="check-box-checkall">
+                <mat-checkbox class="check-all" (change)="toggleAllCheckboxes($event, mailingLists.length)">בחר הכל
+                </mat-checkbox>
+            </div>
+            <div class="list-item" *ngFor="let m of mailingListsToShow; index as i">
+                <div class="check-box">
+                    <div class="content">
+                        <mat-checkbox #checkBox class="" [(ngModel)]="checkboxes[i]">
+                            {{m.mailingListName}}
+                        </mat-checkbox>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="action">
+            <button mat-raised-button class="btn-search" (click)="setMailingListIdsToArray(); 
+            openConfirmSendMessageDilog(confirmSendMessageDialog, noMailingListChosenDialog);
+            clearSearchString()">המשך</button>
+        </div>
+    </div>
+</ng-template>
+
+<ng-template #mailingListsDialog>
+    <div class="modal-wrap modal-wrap-one">
+        <i class="material-icons icon-close" (click)="onCloseMailingListsDialog();clearSearchString()">close</i>
+        <h3 class="heading">ניהול רשימות תפוצה</h3>
+        <div class="btn-wrap">
+            <button mat-raised-button color="primary" class="list-btn"
+                (click)="openCreateNewMailingListDialog(createNewMailingListDialog)">
+                צור רשימת תפוצה חדשה</button><br><br>
+        </div>
+        <div *ngIf="!(mailingLists.length>0)">
+            אין חיבור לשרת. לא ניתן לטעון נתונים
+        </div>
+        <div class="search-form">
+            <mat-form-field [style.fontSize.px]="22">
+                <input [(ngModel)]="changeStr" (ngModelChange)="searchMailingLists()" matInput placeholder="חיפוש..."
+                    type="text" class="example-right-align" />
+                <span matSuffix><i class="material-icons search-icon">search</i></span>
+            </mat-form-field>
+        </div>
+        <div class="list" *ngIf="mailingLists.length>0">
+            <div class="list-item" *ngFor="let m of mailingListsToShow; index as i">
+                <div class="content">
+                    {{m.mailingListName}}
+                </div>
+                <div class="actions">
+                    <i class="material-icons icon-edit"
+                        (click)="openEditMailingListDialog(editMailingListDialog, m.mailingListId)">edit</i>
+                    <i class="material-icons icon-delete"
+                        (click)="openConfirmDeleteMailingListDialog(confirmDeleteMailingListDialog, m.mailingListId)">delete</i>
+                </div>
+            </div>
+        </div>
+        <div class="action">
+            <button mat-raised-button class="btn-search" (click)="onCloseMailingListsDialog();
+                clearSearchString()">סגור</button>
+        </div>
+    </div>
+</ng-template>
+
+<ng-template #editMailingListDialog>
+    <div class="modal-wrap modal-wrap-one">
+        <i class="material-icons icon-close" (click)="onCloseEditMailingListDialog();clearSearchString()">close</i>
+        <h3 class="heading">ערוך רשימת תפוצה:</h3>
+        <div class="btn-wrap">
+            <button mat-raised-button color="primary" class="list-btn"
+                (click)="openLocalAddContactsToMailingListDialog(addContactsToMailingListDialog)"
+                (click)="onCloseEditMailingListDialog()">
+                הוסף והסר אנשי קשר</button><br><br>
+        </div>
+        <div class="search-form">
+            <mat-form-field [style.fontSize.px]="22">
+                <input [(ngModel)]="changeStr" (ngModelChange)="searchContacts()" matInput placeholder="חיפוש..."
+                    type="text" class="example-right-align" />
+                <span matSuffix><i class="material-icons search-icon">search</i></span>
+            </mat-form-field>
+        </div>
+        <div *ngIf="!(contacts.length>0)">
+            אין חיבור לשרת. לא ניתן לטעון נתונים
+        </div>
+        <div class="list" *ngIf="contacts.length>0">
+            <div class="list-item" *ngFor="let c of contactsToShow; index as i">
+                <div class="content">
+                    {{c.contactName}}
+                </div>
+                <div class="actions">
+                    <i class="material-icons icon-edit"
+                        (click)="openEditContactDialog(editContactDialog, c.contactId)">edit</i>
+                    <i class="material-icons icon-delete"
+                        (click)="openConfirmDeleteContactDialog(confirmDeleteContactDialog, c.contactId)">delete</i>
+                </div>
+            </div>
+        </div>
+        <div class="action">
+            <button mat-raised-button class="btn-search" (click)="onCloseEditMailingListDialog();
+            openMailingListsDialog(mailingListsDialog);
+            clearSearchString()">סיום</button>
+        </div>
+    </div>
+</ng-template>
+
+<ng-template #createNewMailingListDialog>
+    <div class="modal-wrap modal-wrap-one">
+        <i class="material-icons icon-close" (click)="onCloseCreateNewMailingListDialog();clearSearchString()">close</i>
+        <h3 class="heading">בחר נמענים מתוך הרשימה:</h3>
+        <mat-form-field [style.fontSize.px]="22">
+            <input [(ngModel)]="changeStr" (ngModelChange)="searchContacts()" matInput placeholder="חיפוש..."
+                type="text" class="example-right-align" />
+            <span matSuffix><i class="material-icons search-icon">search</i></span>
+        </mat-form-field>
+        <div *ngIf="!(contacts.length>0)">
+            אין חיבור לשרת. לא ניתן לטעון נתונים
+        </div>
+        <div class="list" *ngIf="contacts.length>0" style="overflow: none !important; height: 400px;">
+            <div class="check-box">
+                <mat-checkbox class="" (change)="toggleAllCheckboxes($event, contacts.length)">Check All</mat-checkbox>
+            </div>
+            <div class="list-item" *ngFor="let c of contactsToShow; index as i">
+                <div class="content">
+                    <div class="check-box">
+                        <mat-checkbox #checkBox class="" [(ngModel)]="checkboxes[i]">
+                            <span>{{c.contactName}}</span>
+                        </mat-checkbox>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="action">
+            <button mat-raised-button class="btn-search" (click)="setContactsToArray();
+            openGiveNameToMailingListDialog(giveNameToMailingListDialog);
+            onCloseCreateNewMailingListDialog();
+            clearSearchString()">
+                המשך
+            </button>
+        </div>
+    </div>
+</ng-template>
+
+<ng-template #addContactsToMailingListDialog>
+    <div class="modal-wrap modal-wrap-one">
+        <i class="material-icons icon-close"
+            (click)="onCloseAddContactsToMailingListDialog();clearSearchString()">close</i>
+        <h3 class="heading">בחר נמענים מתוך הרשימה:</h3>
+        <div class="search-form">
+            <div class="search-form">
+                <mat-form-field [style.fontSize.px]="22">
+                    <input [(ngModel)]="changeStr" (ngModelChange)="searchContacts()" matInput placeholder="חיפוש..."
+                        type="text" class="example-right-align" />
+                    <span matSuffix><i class="material-icons search-icon">search</i></span>
+                </mat-form-field>
+            </div>
+        </div>
+        <div *ngIf="!(contacts.length>0)">
+            אין חיבור לשרת. לא ניתן לטעון נתונים
+        </div>
+
+        <div class="list" *ngIf="contacts.length>0" style="overflow: none !important; height: 400px;">
+            <div class="check-box">
+                <mat-checkbox class="" (change)="toggleAllCheckboxes($event, contacts.length)">Check All</mat-checkbox>
+            </div>
+            <div class="list-item" *ngFor="let c of contactsToShow; index as i">
+                <div class="content">
+                    <div class="check-box">
+                        <mat-checkbox #checkBox class="" [(ngModel)]="checkboxes[i]">
+                            {{c.contactName}}
+                        </mat-checkbox>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="action">
+            <button mat-raised-button class="btn-search" (click)="setContactsToArray();
+            onCloseAddContactsToMailingListDialog();
+            openConfirmEditMailingListDialog(confirmEditMailingListDialog);
+            clearSearchString()">
+                המשך
+            </button>
+        </div>
+    </div>
+</ng-template>
+
+<ng-template #giveNameToMailingListDialog>
+    <div class="modal-wrap">
+        <i class="material-icons icon-close" (click)="onCloseGiveNmaeToMailingListDialog()">close</i>
+        <h3 class="heading">תן לרשימת התפוצה שם:</h3>
+
+        <mat-form-field [style.fontSize.px]="22">
+            <input matInput placeholder="שם רשימת תפוצה:" type="text" class="example-right-align"
+                [(ngModel)]="newMailingList.mailingListName">
+            <span matSuffix><i class="material-icons search-icon">search</i></span>
+        </mat-form-field>
+        <div class="action">
+            <button mat-raised-button class="btn-search" (click)="onCloseGiveNmaeToMailingListDialog();
+            addMailingListToServer()">
+                סיום
+            </button>
+        </div>
+    </div>
+</ng-template>
+
+<ng-template #messagesDialog>
+    <div class="modal-wrap">
+        <i class="material-icons icon-close" (click)="onCloseMessagesDialog();clearSearchString()">close</i>
+        <h3 class="heading">בחר הודעה:</h3>
+        <div class="btn-wrap">
+            <button mat-raised-button color="primary" class="list-btn2"
+                (click)="openCreateNewMessageDialog(createNewMessageDialog)">
+                צור הודעה חדשה</button><br><br>
+        </div>
+        <mat-form-field [style.fontSize.px]="22">
+            <input [(ngModel)]="changeStr" (ngModelChange)="searchMessages()" matInput placeholder="חיפוש..."
+                type="text" class="example-right-align" />
+            <span matSuffix><i class="material-icons search-icon">search</i></span>
+        </mat-form-field>
+        <div *ngIf="!(messages.length>0)">
+            אין חיבור לשרת. לא ניתן לטעון נתונים
+        </div>
+        <div class="list" style="overflow: none !important; height: 400px !important;" *ngIf="messages.length>0">
+            <div class="mailing-lists-wrap" *ngFor="let m of messagesToShow; index as i">
+                <div class="btn-wrap">
+                    <button mat-raised-button color="primary" class="list-btn"
+                        (click)="openChooseMailingListsDialog(chooseMailingListsDialog, m.messageId)">
+                        {{m.messageContent}}
+                    </button>
+                </div>
+                <i class="material-icons icon-edit"
+                    (click)="openEditMessageDialog(editMessageDialog, m.messageId)">edit</i>
+                <i class="material-icons icon-delete"
+                    (click)="openDeleteMessageDialog(deleteMessageDialog, m.messageId)">delete</i>
+            </div>
+        </div>
+        <div class="action">
+            <button mat-raised-button class="btn-search" (click)="onCloseMessagesDialog();
+            clearSearchString()">חזור</button>
+        </div>
+    </div>
+</ng-template>
+
+<ng-template #confirmSendMessageDialog>
+    <div class="modal-wrap">
+        <i class="material-icons icon-close" (click)="onCloseConfirmSendMessageDialog()">close</i>
+        <h3 class="heading">האם אתה בטוח שברצונך לשלוח את ההודעה?</h3>
+        <div class="btn-wrap">
+            <button mat-raised-button color="primary" class="list-btn2">
+                {{messageToSend.messageContent}}
+            </button>
+            <p>בתאריך: {{datetimeString.substring(0, 10)}}</p>
+            <p>בשעה: {{datetimeString.substring(11)}}
+            </p>
+
+            <button mat-raised-button color="primary" class="list-btn" (click)="sendMessageToContacts()"
+                (click)="onCloseConfirmSendMessageDialog()">
+                כן, אני סגור על זה</button>
+            <button mat-raised-button color="primary" class="list-btn" (click)="onCloseConfirmSendMessageDialog()">
+                יודע מה, בעצם עזוב כרגע</button><br>
+
+        </div>
+    </div>
+</ng-template>
+
+<ng-template #confirmEditMailingListDialog>
+    <div class="modal-wrap">
+        <i class="material-icons icon-close" (click)="onCloseConfirmEditMailingListDialog()">close</i>
+        <h3 class="heading">האם אתה בטוח שברצונך לשנות את רשימת התפוצה?</h3>
+        <div class="btn-wrap">
+            <div *ngIf="!(contacts.length>0)">
+                אין חיבור לשרת. לא ניתן לטעון נתונים
+            </div>
+            <div class="list" *ngIf="contacts.length>0">
+                <div class="mailing-lists-wrap" *ngFor="let c of contactsToShow; index as i">
+                    <span>
+                        {{c.contactName}}
+                    </span>
+                </div>
+            </div>
+            <button mat-raised-button color="primary" class="list-btn" (click)="editMailingList()"
+                (click)="onCloseConfirmEditMailingListDialog()">
+                כן, אני סגור על זה</button>
+            <button mat-raised-button color="primary" class="list-btn" (click)="onCloseConfirmSendMessageDialog()">
+                יודע מה, בעצם עזוב כרגע</button><br>
+
+        </div>
+    </div>
+</ng-template>
+
+<ng-template #editMessageDialog>
+    <div class="modal-wrap">
+        <i class="material-icons icon-close" (click)="onCloseEditMessageDialog()">close</i>
+        <h3 class="heading">ערוך הודעה</h3>
+        <div class="text-area-wrap">
+            <textarea rows="8" class="text-area" [(ngModel)]="messageToEdit.messageContent"></textarea>
+            <div class="arrow-right"></div>
+        </div>
+        <div class="btn-wrap">
+            <button mat-raised-button color="primary" class="list-btn"
+                (click)="openMailingListsDialog(mailingListsDialog)">
+                שלח הודעה</button><br>
+            <button mat-raised-button color="primary" class="send-btn" (click)="openMessageDialog(MessageDialog)">
+                שלח הודעה
+            </button>
+        </div>
+    </div>
+</ng-template>
+
+<ng-template #createNewMessageDialog>
+    <div class="modal-wrap">
+        <i class="material-icons icon-close" (click)="onCloseCreateNewMessageDialog()">close</i>
+
+        <h3 class="heading">כתוב כאן את ההודעה</h3>
+        <div class="text-area-wrap">
+            <textarea rows="8" class="text-area" placeholder="היי [שם] :), ... "
+                [(ngModel)]="newMessage.messageContent"></textarea>
+            <div class="arrow-right"></div>
+        </div>
+        <div class="action">
+            <button mat-raised-button class="btn-search" (click)="createNewMessageDone()"
+                (click)="onCloseCreateNewMessageDialog()" (click)="openMailingListsDialog(mailingListsDialog)">
+                צור
+            </button>
+        </div>
+    </div>
+</ng-template>
+
+<ng-template #deleteMessageDialog>
+    <div class="modal-wrap">
+        <i class="material-icons icon-close" (click)="onCloseDeleteMessageDialog()">close</i>
+
+        <h3 class="heading">האם אתה בטוח שברצונך למחוק את ההודעה ואיתה את כל הנתונים השייכים אליה?</h3>
+
+        <div class="btn-wrap">
+            <button mat-raised-button color="primary" class="list-btn" (click)="deleteMessage()"
+                (click)="onCloseDeleteMessageDialog()">
+                כן, אני סגור על זה
+            </button><br>
+        </div>
+        <div class="action">
+            <button mat-raised-button class="btn-search" (click)="createNewMessageDone()"
+                (click)="onCloseDeleteMessageDialog()">
+                יודע מה, בעצם עזוב כרגע
+            </button>
+        </div>
+    </div>
+</ng-template>
+
+<ng-template #confirmDeleteMailingListDialog>
+    <div class="modal-wrap">
+        <i class="material-icons icon-close" (click)="onCloseConfirmDeleteMailingListDialog()">close</i>
+        <h3 class="heading">האם אתה בטוח שברצונך למחוק את רשימת התפוצה {{mailingListToDelete.mailingListName}} ואיתה את
+            כל הנתונים השייכים אליה?</h3>
+        <div class="btn-wrap">
+            <button mat-raised-button color="primary" class="list-btn" (click)="deleteMailingList(mailingListsDialog);">
+                כן, אני סגור על זה</button><br>
+        </div>
+        <div class="action">
+            <button mat-raised-button class="btn-search" (click)="onCloseConfirmDeleteMailingListDialog()">
+                יודע מה, בעצם עזוב כרגע
+            </button>
+        </div>
+    </div>
+</ng-template>
+
+<ng-template #MessageDialog>
+    <div class="modal-wrap">
+        <i class="material-icons icon-close" (click)="onCloseMessageDialog()">close</i>
+        <h3 class="heading">Whatsappכשיר ההמופיע על המסך</h3>
+
+        <div class="action">
+            <button mat-raised-button class="btn-search">ההמופיע</button>
+        </div>
+    </div>
+</ng-template>
+
+<ng-template #confirmDeleteContactDialog>
+    <div class="modal-wrap">
+        <i class="material-icons icon-close" (click)="onCloseMessageDialog()">close</i>
+        <h3 class="heading">Whatsappכשיר ההמופיע על המסך</h3>
+
+        <div class="action">
+            <button mat-raised-button class="btn-search">ההמופיע</button>
+        </div>
+    </div>
+</ng-template>
+
+<ng-template #editContactDialog>
+    <div class="modal-wrap modal-wrap-two">
+        <i class="material-icons icon-close" (click)="onCloseEditContactDialog()">close</i>
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
+                <div class="form">
+                    <h4 class="form-heading">ערוך איש קשר</h4>
+                    <form (submit)="editContact();onCloseEditContactDialog()">
+                        <mat-form-field [style.fontSize.px]="20">
+                            <input matInput placeholder="שם מלא" type="text" class="" name="fullName"
+                                [(ngModel)]="contactToEdit.contactName" />
+                        </mat-form-field>
+                        <mat-form-field [style.fontSize.px]="20">
+                            <input matInput placeholder="מספר וואטספ" type="text" class="" name="phoneNumber"
+                                [(ngModel)]="contactToEdit.contactPhone" />
+                        </mat-form-field>
+                        <mat-form-field [style.fontSize.px]="20">
+                            <input matInput placeholder="דואר אלקטרוני" type="text" class="" name="email"
+                                [(ngModel)]="contactToEdit.contactEmail" />
+                        </mat-form-field>
+                        <div class="action">
+                            <button mat-raised-button class="btn-modal-two">עדכן</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
+                <div class="img-box">
+                    <img src="assets/laptop.png" alt="" />
+                </div>
+            </div>
+        </div>
+    </div>
+</ng-template>

@@ -1,0 +1,160 @@
+$main-color: #25d366;
+
+.automatic-response-comp {
+  background: url("../../../assets/light-bg-with-icons.png");
+  background-size: 100%;
+  width: 100%;
+  height: 100%;
+  padding: 6rem 5rem 5rem 5rem;
+
+  .main-text-area {
+    .main-text {
+      font-family: "Ploni DL 1.1 AAA Light";
+      font-size: 1.3rem;
+      line-height: 1.5rem;
+      text-shadow: 0px 0px 4px #79797931;
+      color: #3a694c;
+    }
+    .text-area-wrap {
+      margin: 3rem 0 2rem 0;
+      .text-area {
+        max-width: 80%;
+        background-color: white;
+        border: 0;
+        border-radius: 100px;
+        width: 100%;
+        height: 180px;
+        padding: 2rem 2.5rem;
+        overflow: hidden;
+        font-size: 1.1rem;
+        font-family: "Ploni DL 1.1 AAA Light";
+        text-shadow: 0px 0px 4px #79797931;
+        color: #3a694c;
+        &:focus {
+          outline: none !important;
+        }
+      }
+      .arrow-right {
+        width: 0;
+        height: 0;
+        border-top: 100px solid rgb(255, 255, 255);
+        border-left: 80px solid #63a83400;
+        margin-top: -3rem;
+        margin-right: 4.4rem;
+      }
+    }
+    .message-time {
+      .time-with-title {
+        margin-right: 1rem;
+        font-size: 1.5rem;
+        font-family: "Ploni DL 1.1 AAA Light";
+        text-shadow: 0px 0px 4px #79797931;
+        color: #3a694c;
+        .time {
+          margin-right: 14px;
+        }
+      }
+    }
+  }
+
+  .send-btn {
+    width: 150px;
+    text-align: center;
+    margin: 0 auto;
+    img {
+      width: 40px;
+      height: 40px;
+    }
+    .btn-title {
+      margin-top: 5px;
+      font-size: 1.3rem;
+      font-family: "Ploni DL 1.1 AAA Light";
+      text-shadow: 0px 0px 4px #79797931;
+      color: #25d366;
+    }
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+  .img-section {
+    display: flex;
+    justify-content: space-between;
+    .border-img {
+      width: 6px;
+      height: 400px;
+      margin-top: 3rem;
+    }
+    .mobile-img {
+      max-width: 250px;
+    }
+  }
+}
+
+@media (min-width: 1200px) {
+  .align-self-center {
+    align-self: center;
+  }
+}
+
+@media (max-width: 1299px) {
+  .automatic-response-comp {
+    .img-section {
+      .border-img {
+        display: none;
+      }
+    }
+  }
+}
+
+@media (min-width: 993px) and (max-width: 1199px) {
+  .automatic-response-comp {
+    .send-btn {
+      margin: 1.2rem 0 0 0;
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  .automatic-response-comp {
+    padding: 3rem 3rem 3rem 3rem;
+    .send-btn {
+      margin: 2rem auto 0 auto;
+    }
+    .img-section {
+      display: flex;
+      justify-content: center;
+      .mobile-img {
+        max-width: 250px;
+        margin: 2rem 0;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .automatic-response-comp {
+    
+    .text-area-wrap {
+      margin: 3rem 0 2rem 0;
+      .text-area {
+        max-width: 100% !important;
+        padding: 2rem 2.5rem;
+      }
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  .automatic-response-comp {
+    padding: 3rem 2rem 2rem 2rem;
+    .text-area-wrap {
+        margin: 3rem 0 2rem 0;
+        .text-area {
+          border-radius: 20px !important;
+          padding: 1.2rem 1.5rem !important;
+        }
+      }
+  }
+
+}

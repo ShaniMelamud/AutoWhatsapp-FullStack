@@ -1,0 +1,48 @@
+<div class="login-comp-wrap">
+    <div class="navbar-wrap">
+        <a class="navbar-logo">AutoWhatsapp</a>
+    </div>
+
+    <div class="login-comp-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-5">
+                    <div class="headings-wrap">
+                        <h1 class="login-heading">
+                            ברוך הבא
+                            <span>
+                                <img src="assets/smile1.png" class="smile-img" />
+                            </span>
+                        </h1>
+                        <p class="login-text">תתחבר. תתחיל לעבוד.</p>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-7">
+                    <mat-card class="login-card">
+                        <mat-card-header>
+                            <mat-card-title class="login-title">התחברות</mat-card-title>
+                        </mat-card-header>
+                        <mat-card-content>
+                            <form class="login-form" (submit)="login()" ngNativeValidate>
+                                <mat-form-field class="example-full-width">
+                                    <mat-label>מספר טלפון:</mat-label>
+                                    <input matInput type="text" placeholder="מס' פלאפון לכניסה למערכת" name="userName" [(ngModel)]="credentials.userName"/>
+                                </mat-form-field>
+
+                                <mat-form-field class="example-full-width">
+                                    <mat-label>סיסמא:</mat-label>
+                                    <input matInput type="password" placeholder="סיסמא" name="password" [(ngModel)]="credentials.password"/>
+                                   </mat-form-field>
+                                
+                                   <button mat-raised-button color="primary" class="login-button">
+                                    כניסה
+                                </button>
+                            </form>
+                            <a routerLink="signup" class="signup-link">לקוח חדש? הירשם כאן</a>
+                        </mat-card-content>
+                    </mat-card>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

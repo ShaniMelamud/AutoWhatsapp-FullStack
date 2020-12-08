@@ -1,0 +1,36 @@
+<div class="report-comp-wrap">
+  <h2 class="report-heading">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit eaque iure
+    porro!
+  </h2>
+  <div class="report-date-section">
+    <form class="date-form">
+      <mat-form-field>
+        <mat-label>Start date</mat-label>
+        <input matInput [matDatepicker]="picker1" />
+        <mat-datepicker-toggle
+          matSuffix
+          [for]="picker1"
+        ></mat-datepicker-toggle>
+        <mat-datepicker #picker1></mat-datepicker>
+      </mat-form-field>
+      <mat-form-field>
+        <mat-label>End date</mat-label>
+        <input matInput [matDatepicker]="picker2" />
+        <mat-datepicker-toggle
+          matSuffix
+          [for]="picker2"
+        ></mat-datepicker-toggle>
+        <mat-datepicker #picker2></mat-datepicker>
+      </mat-form-field>
+    </form>
+    <div class="check-list">
+      <mat-checkbox class="" [checked]="true">כניסה</mat-checkbox>
+      <mat-checkbox class="" [checked]="true">כניסה ניסה</mat-checkbox>
+      <mat-checkbox class="">כניסה</mat-checkbox>
+    </div>
+    <div class="action">
+        <button mat-raised-button color="primary" class="profile-btn">כניסה</button>
+    </div>
+  </div>
+</div>

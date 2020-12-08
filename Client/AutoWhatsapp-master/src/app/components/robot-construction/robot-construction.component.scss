@@ -1,0 +1,145 @@
+.robot-comp-wrap {
+  padding: 4rem;
+  .robot-section {
+    .main-heading {
+      letter-spacing: 2px;
+      font-family: "Ploni DL 1.1 AAA Light";
+      font-size: 1.4rem;
+      line-height: 1.75rem;
+      color: #3a694c;
+      //   font-weight: 700;
+      margin-bottom: 3rem;
+      text-shadow: 0px 0px 4px #79797931;
+    }
+    .btn-wrap {
+      .btn-time-heading {
+        margin: 0rem 0 0rem 1rem;
+        font-family: "Ploni DL 1.1 AAA Light";
+        color: #3a694c;
+        font-size: 1.5rem;
+        text-shadow: 0px 0px 4px #79797931;
+      }
+      .btn-without-time-heading {
+        margin: 0rem 1rem 0rem 0rem;
+        font-family: "Ploni DL 1.1 AAA Light";
+        color: #3a694c;
+        font-size: 1.5rem;
+        text-shadow: 0px 0px 4px #79797931;
+      }
+      .btn-time {
+        margin: 0.2rem 0 0.2rem 1rem;
+        background-color: #00d0f4;
+        border: 1px solid #00d0f4;
+      }
+      .btn-without-time {
+        margin: 0.2rem 1rem 0.2rem 0rem;
+        background-color: #407597;
+        border: 1px solid #407597;
+      }
+      .btn-time,
+      .btn-without-time {
+        width: 280px;
+        min-height: 120px;
+        font-size: 1.4rem;
+        font-family: "Ploni DL 1.1 AAA Light";
+        text-shadow: 0px 0px 4px #79797931;
+        color: white;
+        border-radius: 8px;
+        line-height: 1.5rem;
+        // padding: 1rem;
+        &:hover {
+          cursor: pointer;
+        }
+        &:focus {
+          outline: none;
+        }
+      }
+    }
+    .main-icon {
+      margin-top: 2rem;
+      text-align: center;
+      .plus-circle {
+        width: 50px;
+        height: 50px;
+        &:hover {
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 993px) {
+  .text-align-left {
+    text-align: left;
+  }
+}
+
+@media (max-width: 992px) {
+  .robot-comp-wrap {
+    padding: 4rem 4rem 4rem 4rem;
+    .robot-section {
+      .btn-wrap {
+        text-align: center;
+        .btn-time {
+          margin: 0.2rem 0 1rem 0rem;
+        }
+        .btn-without-time {
+          margin: 0.2rem 0rem 1rem 0rem;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  .robot-comp-wrap {
+    padding: 3rem 2rem 2rem 2rem;
+    .robot-section {
+      .main-heading {
+        margin-bottom: 1.5rem;
+      }
+      .btn-wrap {
+        text-align: center;
+        .btn-time,
+        .btn-without-time {
+          min-width: 200px;
+          max-width: 250px;
+          min-height: 120px;
+          font-size: 1.1rem;
+        }
+        .btn-time-heading {
+          margin: 0rem 0 0rem 1rem;
+          font-family: "Ploni DL 1.1 AAA Light";
+          color: #3a694c;
+          font-size: 1.2rem;
+          line-height: 1.4rem;
+        }
+        .btn-without-time-heading {
+          margin: 0rem 1rem 0rem 0rem;
+          font-family: "Ploni DL 1.1 AAA Light";
+          color: #3a694c;
+          font-size: 1.2rem;
+          line-height: 1.4rem;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 350px) {
+  .robot-comp-wrap {
+    padding: 2rem 1rem 1rem 1rem;
+    .robot-section {
+      .btn-wrap {
+        text-align: center;
+        .btn-time,
+        .btn-without-time {
+          width: 100% !important;
+          min-height: 120px;
+          font-size: 1.1rem;
+        }
+      }
+    }
+  }
+}

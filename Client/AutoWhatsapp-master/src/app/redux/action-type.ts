@@ -1,0 +1,27 @@
+export enum ActionType {
+    Register,
+    Login,
+    Logout,
+    GetAllContacts,
+    AddContact,
+    UpdateContact,
+    DeleteContact,
+    ClearAllContact,
+    GetAllBusinesses,
+    AddBusiness,
+    UpdateBusiness,
+    DeleteBusiness,
+    ClearAllBusiness,
+    GetAllMailingLists,
+    AddMailingList, 
+    UpdateMailingList,
+    DeleteMailigList,
+    ClearALlMailingLists,
+    GetAllMessages,
+    AddMessage,
+    UpdateMessage,
+    DeleteMessage,
+    ClearAllMessages,
+    GotError
+    //... כל הפעולות שאני מעוניין לעשות
+}

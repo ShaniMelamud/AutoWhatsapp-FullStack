@@ -1,0 +1,408 @@
+.contact-comp-wrap {
+  padding: 4rem;
+
+  .main-heading {
+    letter-spacing: 2px;
+    font-family: "Ploni DL 1.1 AAA Light";
+    font-size: 1.4rem;
+    line-height: 1.75rem;
+    color: #3a694c;
+    margin-bottom: 3rem;
+    font-weight: 550;
+    text-shadow: 0px 0px 4px #79797952;
+  }
+
+  .upload-section {
+    .upload-actions {
+      display: flex;
+      justify-content: space-evenly;
+      flex-wrap: wrap;
+      .upload-box {
+        text-align: center;
+        width: 170px;
+        img {
+          width: 170px;
+          height: 210px;
+          &:hover {
+            cursor: pointer;
+          }
+        }
+        .title {
+          color: #3a694c;
+          font-size: 1.5rem;
+          font-weight: 550;
+          font-family: "Ploni DL 1.1 AAA Light";
+          margin-top: 0.2rem;
+          text-shadow: 0px 0px 4px #79797952;
+        }
+        .sub-title {
+          font-size: 1.1rem;
+          line-height: 1.23rem;
+          color: #b8b9b5;
+          font-family: "Ploni DL 1.1 AAA Light";
+          text-shadow: 0px 0px 4px #79797931;
+        }
+      }
+      .add-box {
+        text-align: center;
+        width: 170px;
+        .img-box {
+          width: 170px;
+          height: 210px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          background-color: #06d755;
+          border-radius: 18px;
+          img {
+            width: 60px;
+            height: 60px;
+          }
+          &:hover {
+            cursor: pointer;
+          }
+        }
+        .title {
+          color: #3a694c;
+          font-size: 1.5rem;
+          font-weight: 550;
+          font-family: "Ploni DL 1.1 AAA Light";
+          margin-top: 0.5rem;
+          text-shadow: 0px 0px 4px #79797952;
+        }
+      }
+      .user-box {
+        text-align: center;
+        width: 170px;
+        .img-box {
+          width: 170px;
+          height: 210px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          background-color: #dfe8f4;
+          border-radius: 18px;
+          img {
+            width: 70px;
+            height: 70px;
+          }
+          &:hover {
+            cursor: pointer;
+          }
+        }
+        .title {
+          color: #3a694c;
+          font-size: 1.5rem;
+          font-weight: 550;
+          font-family: "Ploni DL 1.1 AAA Light";
+          margin-top: 0.5rem;
+          text-shadow: 0px 0px 4px #79797952;
+        }
+      }
+    }
+    .bottom-link {
+      margin-top: 4rem;
+      display: flex;
+      justify-content: center;
+      .link {
+        max-width: 300px;
+        border-bottom: 3px solid #06d755;
+        padding-bottom: 4px;
+        a {
+          color: #06d755;
+          font-size: 1.5rem;
+          font-weight: 550;
+          font-family: "Ploni DL 1.1 AAA Light";
+          padding: 0 8px 0px 8px;
+          text-decoration: none;
+          &:hover {
+            cursor: pointer;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  .contact-comp-wrap {
+    padding: 2rem;
+  }
+}
+
+.modal-wrap {
+  margin: -24px;
+  padding: 44px;
+  position: relative;
+  i.icon-close {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    color: #9e9c9c;
+    font-size: 24px;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
+
+.modal-wrap-one {
+  max-height: 550px;
+  .heading {
+    text-align: center;
+    color: #000000;
+    font-size: 1.7rem;
+    font-weight: 500;
+    font-family: "Ploni DL 1.1 AAA Light";
+    margin-bottom: 2rem;
+  }
+  .search-form {
+    mat-form-field {
+      width: 100%;
+      .search-icon {
+        position: relative;
+        top: 8px;
+        color: grey;
+      }
+    }
+  }
+  .list {
+      overflow: auto;
+    min-height: 150px;
+    max-height: 270px;
+    .list-item {
+      margin: 0.6rem 0;
+      background-color: #06d755;
+      padding: 8px;
+      border-radius: 8px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .content {
+        .name {
+          font-size: 1.5rem;
+          color: white;
+          font-family: "Ploni DL 1.1 AAA Light";
+          margin-bottom: 5px;
+        }
+        .number, .email {
+          font-size: 1.3rem;
+          color: white;
+          margin-bottom: 0;
+          font-family: "Ploni DL 1.1 AAA Light";
+        }
+      }
+      .actions {
+        i {
+          margin-right: 4px;
+          font-size: 1.8rem;
+          color: white;
+          &:hover {
+            cursor: pointer;
+          }
+        }
+      }
+    }
+  }
+  .action {
+    text-align: center;
+    .btn-search {
+      font-size: 1.2rem;
+      margin: 0.5rem 0;
+      padding: 0.4rem 3rem;
+      border-radius: 8px;
+      background-color: #000000;
+      color: white;
+      font-family: "Ploni DL 1.1 AAA Light";
+      border: 1px solid #000000;
+    }
+  }
+}
+
+.modal-wrap-two {
+  background: url(../../../assets/green-bg-with-icons.png);
+  background-position: center;
+  background-size: cover;
+  i.icon-close {
+    color: #ffffff;
+  }
+  .img-box {
+    text-align: center;
+    img {
+      width: 80%;
+      height: 300px;
+      transform: rotate(270deg);
+    }
+  }
+  .form {
+    .form-heading {
+      font-size: 1.8rem;
+      color: white;
+      text-align: center;
+      font-family: "Ploni DL 1.1 AAA Light";
+    }
+    .mat-form-field {
+      width: 100%;
+    }
+    .action {
+      .btn-modal-two {
+        margin-top: 0.5rem;
+        background-color: white;
+        color: black;
+        font-size: 1.6rem;
+        padding: 0.4rem 1rem;
+        width: 100%;
+        border-radius: 8px;
+        font-family: "Ploni DL 1.1 AAA Light";
+      }
+    }
+  }
+}
+
+.modal-wrap-three {
+  .img-box {
+    text-align: center;
+    img {
+      width: 80%;
+      height: 300px;
+      transform: rotate(270deg);
+    }
+  }
+  .form {
+    .form-heading {
+      font-size: 1.8rem;
+      color: #5bb9a8;
+      text-align: center;
+      font-family: "Ploni DL 1.1 AAA Light";
+      text-shadow: 0px 0px 4px #79797952;
+    }
+    .mat-form-field {
+      width: 100%;
+    }
+    .action {
+      .btn-modal-three {
+        margin-top: 0.5rem;
+        background-color: #5bb9a8;
+        color: rgb(255, 255, 255);
+        font-size: 1.6rem;
+        padding: 0.4rem 1rem;
+        width: 100%;
+        border-radius: 8px;
+        font-family: "Ploni DL 1.1 AAA Light";
+      }
+    }
+  }
+}
+
+::ng-deep {
+  .modal-wrap-one {
+    .mat-form-field {
+      .mat-input-element {
+        caret-color: #2b5039;
+      }
+      .mat-form-field-label {
+        color: #2b5039;
+      }
+      .mat-form-field-underline {
+        background-color: #06d755;
+      }
+      .mat-form-field-ripple {
+        background-color: #06d755;
+      }
+    }
+
+    .mat-form-field.mat-focused {
+      .mat-input-element {
+        caret-color: #2b5039;
+      }
+      .mat-form-field-label {
+        color: #2b5039;
+      }
+      .mat-form-field-underline {
+        background-color: #06d755;
+      }
+      .mat-form-field-ripple {
+        background-color: #06d755;
+      }
+    }
+  }
+  .modal-wrap-two {
+    .mat-form-field {
+      .mat-input-element {
+        color: #ffffff;
+        caret-color: #ffffff;
+      }
+      .mat-form-field-label {
+        color: #ffffff;
+      }
+      .mat-form-field-underline {
+        background-color: #ffffff;
+      }
+      .mat-form-field-ripple {
+        background-color: #ffffff;
+      }
+    }
+
+    .mat-form-field.mat-focused {
+      .mat-input-element {
+        color: #ffffff;
+        caret-color: #ffffff;
+      }
+      .mat-form-field-label {
+        color: #ffffff;
+      }
+      .mat-form-field-underline {
+        background-color: #ffffff;
+      }
+      .mat-form-field-ripple {
+        background-color: #ffffff;
+      }
+    }
+  }
+
+  .modal-wrap-three {
+    .mat-form-field {
+      .mat-form-field-label {
+        color: #ccd8e5;
+      }
+      .mat-form-field-underline {
+        background-color: #ccd8e5;
+      }
+      .mat-form-field-ripple {
+        background-color: #ccd8e5;
+      }
+    }
+    .mat-form-field.mat-focused {
+      .mat-input-element {
+        color: #5bb9a8;
+        caret-color: #5bb9a8;
+      }
+      .mat-form-field-label {
+        color: #5bb9a8;
+      }
+      .mat-form-field-underline {
+        background-color: #5bb9a8;
+      }
+      .mat-form-field-ripple {
+        background-color: #5bb9a8;
+      }
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  .modal-wrap-two, .modal-wrap-three {
+    .img-box {
+      img {
+        display: none;
+      }
+    }
+  }
+}
+
+.contactDetails{
+    margin: 5px;
+    color: white;
+    background-color: #06d755;
+    border: none;
+}

@@ -1,0 +1,80 @@
+C:\Users\user\OneDrive\Programming studies\Homework\AutoWhatsapp\04 - Handle Data Layer\bin\Debug\netcoreapp3.1\04 - Handle Data Layer.deps.json
+C:\Users\user\OneDrive\Programming studies\Homework\AutoWhatsapp\04 - Handle Data Layer\bin\Debug\netcoreapp3.1\04 - Handle Data Layer.dll
+C:\Users\user\OneDrive\Programming studies\Homework\AutoWhatsapp\04 - Handle Data Layer\bin\Debug\netcoreapp3.1\04 - Handle Data Layer.pdb
+C:\Users\user\OneDrive\Programming studies\Homework\AutoWhatsapp\04 - Handle Data Layer\bin\Debug\netcoreapp3.1\01 - Data Access Layer.dll
+C:\Users\user\OneDrive\Programming studies\Homework\AutoWhatsapp\04 - Handle Data Layer\bin\Debug\netcoreapp3.1\02 - Business Model Layer.dll
+C:\Users\user\OneDrive\Programming studies\Homework\AutoWhatsapp\04 - Handle Data Layer\bin\Debug\netcoreapp3.1\03 - Business Logic Layer.dll
+C:\Users\user\OneDrive\Programming studies\Homework\AutoWhatsapp\04 - Handle Data Layer\bin\Debug\netcoreapp3.1\03 - Business Logic Layer.pdb
+C:\Users\user\OneDrive\Programming studies\Homework\AutoWhatsapp\04 - Handle Data Layer\bin\Debug\netcoreapp3.1\01 - Data Access Layer.pdb
+C:\Users\user\OneDrive\Programming studies\Homework\AutoWhatsapp\04 - Handle Data Layer\bin\Debug\netcoreapp3.1\02 - Business Model Layer.pdb
+C:\Users\user\OneDrive\Programming studies\Homework\AutoWhatsapp\04 - Handle Data Layer\obj\Debug\netcoreapp3.1\04 - Handle Data Layer.csprojAssemblyReference.cache
+C:\Users\user\OneDrive\Programming studies\Homework\AutoWhatsapp\04 - Handle Data Layer\obj\Debug\netcoreapp3.1\04 - Handle Data Layer.AssemblyInfoInputs.cache
+C:\Users\user\OneDrive\Programming studies\Homework\AutoWhatsapp\04 - Handle Data Layer\obj\Debug\netcoreapp3.1\04 - Handle Data Layer.AssemblyInfo.cs
+C:\Users\user\OneDrive\Programming studies\Homework\AutoWhatsapp\04 - Handle Data Layer\obj\Debug\netcoreapp3.1\04 - Handle Data Layer.csproj.CopyComplete
+C:\Users\user\OneDrive\Programming studies\Homework\AutoWhatsapp\04 - Handle Data Layer\obj\Debug\netcoreapp3.1\04 - Handle Data Layer.dll
+C:\Users\user\OneDrive\Programming studies\Homework\AutoWhatsapp\04 - Handle Data Layer\obj\Debug\netcoreapp3.1\04 - Handle Data Layer.pdb
+C:\Users\user\OneDrive\Programming studies\Homework\AutoWhatsapp\04 - Handle Data Layer\obj\Debug\netcoreapp3.1\04 - Handle Data Layer.csproj.CoreCompileInputs.cache
+C:\Users\user\OneDrive\Programming studies\Tomedia Web Team\AutoWhatsapp\04 - Handle Data Layer\bin\Debug\netcoreapp3.1\04 - Handle Data Layer.deps.json
+C:\Users\user\OneDrive\Programming studies\Tomedia Web Team\AutoWhatsapp\04 - Handle Data Layer\bin\Debug\netcoreapp3.1\04 - Handle Data Layer.dll
+C:\Users\user\OneDrive\Programming studies\Tomedia Web Team\AutoWhatsapp\04 - Handle Data Layer\bin\Debug\netcoreapp3.1\04 - Handle Data Layer.pdb
+C:\Users\user\OneDrive\Programming studies\Tomedia Web Team\AutoWhatsapp\04 - Handle Data Layer\bin\Debug\netcoreapp3.1\01 - Data Access Layer.dll
+C:\Users\user\OneDrive\Programming studies\Tomedia Web Team\AutoWhatsapp\04 - Handle Data Layer\bin\Debug\netcoreapp3.1\02 - Business Model Layer.dll
+C:\Users\user\OneDrive\Programming studies\Tomedia Web Team\AutoWhatsapp\04 - Handle Data Layer\bin\Debug\netcoreapp3.1\03 - Business Logic Layer.dll
+C:\Users\user\OneDrive\Programming studies\Tomedia Web Team\AutoWhatsapp\04 - Handle Data Layer\bin\Debug\netcoreapp3.1\03 - Business Logic Layer.pdb
+C:\Users\user\OneDrive\Programming studies\Tomedia Web Team\AutoWhatsapp\04 - Handle Data Layer\bin\Debug\netcoreapp3.1\01 - Data Access Layer.pdb
+C:\Users\user\OneDrive\Programming studies\Tomedia Web Team\AutoWhatsapp\04 - Handle Data Layer\bin\Debug\netcoreapp3.1\02 - Business Model Layer.pdb
+C:\Users\user\OneDrive\Programming studies\Tomedia Web Team\AutoWhatsapp\04 - Handle Data Layer\obj\Debug\netcoreapp3.1\04 - Handle Data Layer.csprojAssemblyReference.cache
+C:\Users\user\OneDrive\Programming studies\Tomedia Web Team\AutoWhatsapp\04 - Handle Data Layer\obj\Debug\netcoreapp3.1\04 - Handle Data Layer.AssemblyInfoInputs.cache
+C:\Users\user\OneDrive\Programming studies\Tomedia Web Team\AutoWhatsapp\04 - Handle Data Layer\obj\Debug\netcoreapp3.1\04 - Handle Data Layer.AssemblyInfo.cs
+C:\Users\user\OneDrive\Programming studies\Tomedia Web Team\AutoWhatsapp\04 - Handle Data Layer\obj\Debug\netcoreapp3.1\04 - Handle Data Layer.csproj.CopyComplete
+C:\Users\user\OneDrive\Programming studies\Tomedia Web Team\AutoWhatsapp\04 - Handle Data Layer\obj\Debug\netcoreapp3.1\04 - Handle Data Layer.dll
+C:\Users\user\OneDrive\Programming studies\Tomedia Web Team\AutoWhatsapp\04 - Handle Data Layer\obj\Debug\netcoreapp3.1\04 - Handle Data Layer.pdb
+C:\Users\user\OneDrive\Programming studies\Tomedia Web Team\AutoWhatsapp\04 - Handle Data Layer\obj\Debug\netcoreapp3.1\04 - Handle Data Layer.csproj.CoreCompileInputs.cache
+C:\Users\david\OneDrive\Documents\Tomedia Web Team\AutoWhatsapp\AutoWhatsapp-REALmaster\04 - Handle Data Layer\bin\Debug\netcoreapp3.1\04 - Handle Data Layer.deps.json
+C:\Users\david\OneDrive\Documents\Tomedia Web Team\AutoWhatsapp\AutoWhatsapp-REALmaster\04 - Handle Data Layer\bin\Debug\netcoreapp3.1\04 - Handle Data Layer.dll
+C:\Users\david\OneDrive\Documents\Tomedia Web Team\AutoWhatsapp\AutoWhatsapp-REALmaster\04 - Handle Data Layer\bin\Debug\netcoreapp3.1\04 - Handle Data Layer.pdb
+C:\Users\david\OneDrive\Documents\Tomedia Web Team\AutoWhatsapp\AutoWhatsapp-REALmaster\04 - Handle Data Layer\bin\Debug\netcoreapp3.1\01 - Data Access Layer.dll
+C:\Users\david\OneDrive\Documents\Tomedia Web Team\AutoWhatsapp\AutoWhatsapp-REALmaster\04 - Handle Data Layer\bin\Debug\netcoreapp3.1\02 - Business Model Layer.dll
+C:\Users\david\OneDrive\Documents\Tomedia Web Team\AutoWhatsapp\AutoWhatsapp-REALmaster\04 - Handle Data Layer\bin\Debug\netcoreapp3.1\03 - Business Logic Layer.dll
+C:\Users\david\OneDrive\Documents\Tomedia Web Team\AutoWhatsapp\AutoWhatsapp-REALmaster\04 - Handle Data Layer\bin\Debug\netcoreapp3.1\03 - Business Logic Layer.pdb
+C:\Users\david\OneDrive\Documents\Tomedia Web Team\AutoWhatsapp\AutoWhatsapp-REALmaster\04 - Handle Data Layer\bin\Debug\netcoreapp3.1\01 - Data Access Layer.pdb
+C:\Users\david\OneDrive\Documents\Tomedia Web Team\AutoWhatsapp\AutoWhatsapp-REALmaster\04 - Handle Data Layer\bin\Debug\netcoreapp3.1\02 - Business Model Layer.pdb
+C:\Users\david\OneDrive\Documents\Tomedia Web Team\AutoWhatsapp\AutoWhatsapp-REALmaster\04 - Handle Data Layer\obj\Debug\netcoreapp3.1\04 - Handle Data Layer.csprojAssemblyReference.cache
+C:\Users\david\OneDrive\Documents\Tomedia Web Team\AutoWhatsapp\AutoWhatsapp-REALmaster\04 - Handle Data Layer\obj\Debug\netcoreapp3.1\04 - Handle Data Layer.AssemblyInfoInputs.cache
+C:\Users\david\OneDrive\Documents\Tomedia Web Team\AutoWhatsapp\AutoWhatsapp-REALmaster\04 - Handle Data Layer\obj\Debug\netcoreapp3.1\04 - Handle Data Layer.AssemblyInfo.cs
+C:\Users\david\OneDrive\Documents\Tomedia Web Team\AutoWhatsapp\AutoWhatsapp-REALmaster\04 - Handle Data Layer\obj\Debug\netcoreapp3.1\04 - Handle Data Layer.csproj.CoreCompileInputs.cache
+C:\Users\david\OneDrive\Documents\Tomedia Web Team\AutoWhatsapp\AutoWhatsapp-REALmaster\04 - Handle Data Layer\obj\Debug\netcoreapp3.1\04 - Handle Data Layer.csproj.CopyComplete
+C:\Users\david\OneDrive\Documents\Tomedia Web Team\AutoWhatsapp\AutoWhatsapp-REALmaster\04 - Handle Data Layer\obj\Debug\netcoreapp3.1\04 - Handle Data Layer.dll
+C:\Users\david\OneDrive\Documents\Tomedia Web Team\AutoWhatsapp\AutoWhatsapp-REALmaster\04 - Handle Data Layer\obj\Debug\netcoreapp3.1\04 - Handle Data Layer.pdb
+C:\Projects John Bryce\Auto Whatsapp\most updated version\AutoWhatsapp---merged-master\AutoWhatsapp---merged-master\04 - Handle Data Layer\bin\Debug\netcoreapp3.1\04 - Handle Data Layer.deps.json
+C:\Projects John Bryce\Auto Whatsapp\most updated version\AutoWhatsapp---merged-master\AutoWhatsapp---merged-master\04 - Handle Data Layer\bin\Debug\netcoreapp3.1\04 - Handle Data Layer.dll
+C:\Projects John Bryce\Auto Whatsapp\most updated version\AutoWhatsapp---merged-master\AutoWhatsapp---merged-master\04 - Handle Data Layer\bin\Debug\netcoreapp3.1\04 - Handle Data Layer.pdb
+C:\Projects John Bryce\Auto Whatsapp\most updated version\AutoWhatsapp---merged-master\AutoWhatsapp---merged-master\04 - Handle Data Layer\bin\Debug\netcoreapp3.1\01 - Data Access Layer.dll
+C:\Projects John Bryce\Auto Whatsapp\most updated version\AutoWhatsapp---merged-master\AutoWhatsapp---merged-master\04 - Handle Data Layer\bin\Debug\netcoreapp3.1\02 - Business Model Layer.dll
+C:\Projects John Bryce\Auto Whatsapp\most updated version\AutoWhatsapp---merged-master\AutoWhatsapp---merged-master\04 - Handle Data Layer\bin\Debug\netcoreapp3.1\03 - Business Logic Layer.dll
+C:\Projects John Bryce\Auto Whatsapp\most updated version\AutoWhatsapp---merged-master\AutoWhatsapp---merged-master\04 - Handle Data Layer\bin\Debug\netcoreapp3.1\03 - Business Logic Layer.pdb
+C:\Projects John Bryce\Auto Whatsapp\most updated version\AutoWhatsapp---merged-master\AutoWhatsapp---merged-master\04 - Handle Data Layer\bin\Debug\netcoreapp3.1\01 - Data Access Layer.pdb
+C:\Projects John Bryce\Auto Whatsapp\most updated version\AutoWhatsapp---merged-master\AutoWhatsapp---merged-master\04 - Handle Data Layer\bin\Debug\netcoreapp3.1\02 - Business Model Layer.pdb
+C:\Projects John Bryce\Auto Whatsapp\most updated version\AutoWhatsapp---merged-master\AutoWhatsapp---merged-master\04 - Handle Data Layer\obj\Debug\netcoreapp3.1\04 - Handle Data Layer.csprojAssemblyReference.cache
+C:\Projects John Bryce\Auto Whatsapp\most updated version\AutoWhatsapp---merged-master\AutoWhatsapp---merged-master\04 - Handle Data Layer\obj\Debug\netcoreapp3.1\04 - Handle Data Layer.AssemblyInfoInputs.cache
+C:\Projects John Bryce\Auto Whatsapp\most updated version\AutoWhatsapp---merged-master\AutoWhatsapp---merged-master\04 - Handle Data Layer\obj\Debug\netcoreapp3.1\04 - Handle Data Layer.AssemblyInfo.cs
+C:\Projects John Bryce\Auto Whatsapp\most updated version\AutoWhatsapp---merged-master\AutoWhatsapp---merged-master\04 - Handle Data Layer\obj\Debug\netcoreapp3.1\04 - Handle Data Layer.csproj.CoreCompileInputs.cache
+C:\Projects John Bryce\Auto Whatsapp\most updated version\AutoWhatsapp---merged-master\AutoWhatsapp---merged-master\04 - Handle Data Layer\obj\Debug\netcoreapp3.1\04 - Handle Data Layer.csproj.CopyComplete
+C:\Projects John Bryce\Auto Whatsapp\most updated version\AutoWhatsapp---merged-master\AutoWhatsapp---merged-master\04 - Handle Data Layer\obj\Debug\netcoreapp3.1\04 - Handle Data Layer.dll
+C:\Projects John Bryce\Auto Whatsapp\most updated version\AutoWhatsapp---merged-master\AutoWhatsapp---merged-master\04 - Handle Data Layer\obj\Debug\netcoreapp3.1\04 - Handle Data Layer.pdb
+C:\Projects John Bryce\Auto Whatsapp\most updated version\AutoWhatsapp---merged-master\AutoWhatsapp---merged-master\Last Version\Server\04 - Handle Data Layer\bin\Debug\netcoreapp3.1\04 - Handle Data Layer.deps.json
+C:\Projects John Bryce\Auto Whatsapp\most updated version\AutoWhatsapp---merged-master\AutoWhatsapp---merged-master\Last Version\Server\04 - Handle Data Layer\bin\Debug\netcoreapp3.1\04 - Handle Data Layer.dll
+C:\Projects John Bryce\Auto Whatsapp\most updated version\AutoWhatsapp---merged-master\AutoWhatsapp---merged-master\Last Version\Server\04 - Handle Data Layer\bin\Debug\netcoreapp3.1\04 - Handle Data Layer.pdb
+C:\Projects John Bryce\Auto Whatsapp\most updated version\AutoWhatsapp---merged-master\AutoWhatsapp---merged-master\Last Version\Server\04 - Handle Data Layer\bin\Debug\netcoreapp3.1\01 - Data Access Layer.dll
+C:\Projects John Bryce\Auto Whatsapp\most updated version\AutoWhatsapp---merged-master\AutoWhatsapp---merged-master\Last Version\Server\04 - Handle Data Layer\bin\Debug\netcoreapp3.1\02 - Business Model Layer.dll
+C:\Projects John Bryce\Auto Whatsapp\most updated version\AutoWhatsapp---merged-master\AutoWhatsapp---merged-master\Last Version\Server\04 - Handle Data Layer\bin\Debug\netcoreapp3.1\03 - Business Logic Layer.dll
+C:\Projects John Bryce\Auto Whatsapp\most updated version\AutoWhatsapp---merged-master\AutoWhatsapp---merged-master\Last Version\Server\04 - Handle Data Layer\bin\Debug\netcoreapp3.1\03 - Business Logic Layer.pdb
+C:\Projects John Bryce\Auto Whatsapp\most updated version\AutoWhatsapp---merged-master\AutoWhatsapp---merged-master\Last Version\Server\04 - Handle Data Layer\bin\Debug\netcoreapp3.1\01 - Data Access Layer.pdb
+C:\Projects John Bryce\Auto Whatsapp\most updated version\AutoWhatsapp---merged-master\AutoWhatsapp---merged-master\Last Version\Server\04 - Handle Data Layer\bin\Debug\netcoreapp3.1\02 - Business Model Layer.pdb
+C:\Projects John Bryce\Auto Whatsapp\most updated version\AutoWhatsapp---merged-master\AutoWhatsapp---merged-master\Last Version\Server\04 - Handle Data Layer\obj\Debug\netcoreapp3.1\04 - Handle Data Layer.csprojAssemblyReference.cache
+C:\Projects John Bryce\Auto Whatsapp\most updated version\AutoWhatsapp---merged-master\AutoWhatsapp---merged-master\Last Version\Server\04 - Handle Data Layer\obj\Debug\netcoreapp3.1\04 - Handle Data Layer.AssemblyInfoInputs.cache
+C:\Projects John Bryce\Auto Whatsapp\most updated version\AutoWhatsapp---merged-master\AutoWhatsapp---merged-master\Last Version\Server\04 - Handle Data Layer\obj\Debug\netcoreapp3.1\04 - Handle Data Layer.AssemblyInfo.cs
+C:\Projects John Bryce\Auto Whatsapp\most updated version\AutoWhatsapp---merged-master\AutoWhatsapp---merged-master\Last Version\Server\04 - Handle Data Layer\obj\Debug\netcoreapp3.1\04 - Handle Data Layer.csproj.CoreCompileInputs.cache
+C:\Projects John Bryce\Auto Whatsapp\most updated version\AutoWhatsapp---merged-master\AutoWhatsapp---merged-master\Last Version\Server\04 - Handle Data Layer\obj\Debug\netcoreapp3.1\04 - Handle Data Layer.csproj.CopyComplete
+C:\Projects John Bryce\Auto Whatsapp\most updated version\AutoWhatsapp---merged-master\AutoWhatsapp---merged-master\Last Version\Server\04 - Handle Data Layer\obj\Debug\netcoreapp3.1\04 - Handle Data Layer.dll
+C:\Projects John Bryce\Auto Whatsapp\most updated version\AutoWhatsapp---merged-master\AutoWhatsapp---merged-master\Last Version\Server\04 - Handle Data Layer\obj\Debug\netcoreapp3.1\04 - Handle Data Layer.pdb

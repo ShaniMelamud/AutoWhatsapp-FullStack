@@ -1,0 +1,75 @@
+C:\Users\user\OneDrive\Programming studies\Tomedia Web Team\AutoWhatsapp\05 - REST API\bin\Release\netcoreapp3.1\appsettings.Development.json
+C:\Users\user\OneDrive\Programming studies\Tomedia Web Team\AutoWhatsapp\05 - REST API\bin\Release\netcoreapp3.1\appsettings.json
+C:\Users\user\OneDrive\Programming studies\Tomedia Web Team\AutoWhatsapp\05 - REST API\bin\Release\netcoreapp3.1\Properties\launchSettings.json
+C:\Users\user\OneDrive\Programming studies\Tomedia Web Team\AutoWhatsapp\05 - REST API\bin\Release\netcoreapp3.1\05 - REST API.exe
+C:\Users\user\OneDrive\Programming studies\Tomedia Web Team\AutoWhatsapp\05 - REST API\bin\Release\netcoreapp3.1\05 - REST API.deps.json
+C:\Users\user\OneDrive\Programming studies\Tomedia Web Team\AutoWhatsapp\05 - REST API\bin\Release\netcoreapp3.1\05 - REST API.runtimeconfig.json
+C:\Users\user\OneDrive\Programming studies\Tomedia Web Team\AutoWhatsapp\05 - REST API\bin\Release\netcoreapp3.1\05 - REST API.runtimeconfig.dev.json
+C:\Users\user\OneDrive\Programming studies\Tomedia Web Team\AutoWhatsapp\05 - REST API\bin\Release\netcoreapp3.1\05 - REST API.dll
+C:\Users\user\OneDrive\Programming studies\Tomedia Web Team\AutoWhatsapp\05 - REST API\bin\Release\netcoreapp3.1\05 - REST API.pdb
+C:\Users\user\OneDrive\Programming studies\Tomedia Web Team\AutoWhatsapp\05 - REST API\bin\Release\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\user\OneDrive\Programming studies\Tomedia Web Team\AutoWhatsapp\05 - REST API\bin\Release\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\user\OneDrive\Programming studies\Tomedia Web Team\AutoWhatsapp\05 - REST API\bin\Release\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+C:\Users\user\OneDrive\Programming studies\Tomedia Web Team\AutoWhatsapp\05 - REST API\bin\Release\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\user\OneDrive\Programming studies\Tomedia Web Team\AutoWhatsapp\05 - REST API\bin\Release\netcoreapp3.1\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Users\user\OneDrive\Programming studies\Tomedia Web Team\AutoWhatsapp\05 - REST API\bin\Release\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\user\OneDrive\Programming studies\Tomedia Web Team\AutoWhatsapp\05 - REST API\bin\Release\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\user\OneDrive\Programming studies\Tomedia Web Team\AutoWhatsapp\05 - REST API\bin\Release\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\user\OneDrive\Programming studies\Tomedia Web Team\AutoWhatsapp\05 - REST API\bin\Release\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\user\OneDrive\Programming studies\Tomedia Web Team\AutoWhatsapp\05 - REST API\bin\Release\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\user\OneDrive\Programming studies\Tomedia Web Team\AutoWhatsapp\05 - REST API\bin\Release\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\user\OneDrive\Programming studies\Tomedia Web Team\AutoWhatsapp\05 - REST API\bin\Release\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+C:\Users\user\OneDrive\Programming studies\Tomedia Web Team\AutoWhatsapp\05 - REST API\bin\Release\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\user\OneDrive\Programming studies\Tomedia Web Team\AutoWhatsapp\05 - REST API\bin\Release\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\user\OneDrive\Programming studies\Tomedia Web Team\AutoWhatsapp\05 - REST API\bin\Release\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\user\OneDrive\Programming studies\Tomedia Web Team\AutoWhatsapp\05 - REST API\bin\Release\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\user\OneDrive\Programming studies\Tomedia Web Team\AutoWhatsapp\05 - REST API\bin\Release\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
+C:\Users\user\OneDrive\Programming studies\Tomedia Web Team\AutoWhatsapp\05 - REST API\bin\Release\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\user\OneDrive\Programming studies\Tomedia Web Team\AutoWhatsapp\05 - REST API\bin\Release\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\user\OneDrive\Programming studies\Tomedia Web Team\AutoWhatsapp\05 - REST API\bin\Release\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\user\OneDrive\Programming studies\Tomedia Web Team\AutoWhatsapp\05 - REST API\bin\Release\netcoreapp3.1\Microsoft.Extensions.PlatformAbstractions.dll
+C:\Users\user\OneDrive\Programming studies\Tomedia Web Team\AutoWhatsapp\05 - REST API\bin\Release\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\user\OneDrive\Programming studies\Tomedia Web Team\AutoWhatsapp\05 - REST API\bin\Release\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Users\user\OneDrive\Programming studies\Tomedia Web Team\AutoWhatsapp\05 - REST API\bin\Release\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\user\OneDrive\Programming studies\Tomedia Web Team\AutoWhatsapp\05 - REST API\bin\Release\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Users\user\OneDrive\Programming studies\Tomedia Web Team\AutoWhatsapp\05 - REST API\bin\Release\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\Users\user\OneDrive\Programming studies\Tomedia Web Team\AutoWhatsapp\05 - REST API\bin\Release\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\user\OneDrive\Programming studies\Tomedia Web Team\AutoWhatsapp\05 - REST API\bin\Release\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Users\user\OneDrive\Programming studies\Tomedia Web Team\AutoWhatsapp\05 - REST API\bin\Release\netcoreapp3.1\Nancy.dll
+C:\Users\user\OneDrive\Programming studies\Tomedia Web Team\AutoWhatsapp\05 - REST API\bin\Release\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\user\OneDrive\Programming studies\Tomedia Web Team\AutoWhatsapp\05 - REST API\bin\Release\netcoreapp3.1\Quartz.dll
+C:\Users\user\OneDrive\Programming studies\Tomedia Web Team\AutoWhatsapp\05 - REST API\bin\Release\netcoreapp3.1\RestSharp.dll
+C:\Users\user\OneDrive\Programming studies\Tomedia Web Team\AutoWhatsapp\05 - REST API\bin\Release\netcoreapp3.1\System.Collections.Immutable.dll
+C:\Users\user\OneDrive\Programming studies\Tomedia Web Team\AutoWhatsapp\05 - REST API\bin\Release\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\user\OneDrive\Programming studies\Tomedia Web Team\AutoWhatsapp\05 - REST API\bin\Release\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\Users\user\OneDrive\Programming studies\Tomedia Web Team\AutoWhatsapp\05 - REST API\bin\Release\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\user\OneDrive\Programming studies\Tomedia Web Team\AutoWhatsapp\05 - REST API\bin\Release\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Users\user\OneDrive\Programming studies\Tomedia Web Team\AutoWhatsapp\05 - REST API\bin\Release\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\user\OneDrive\Programming studies\Tomedia Web Team\AutoWhatsapp\05 - REST API\bin\Release\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\user\OneDrive\Programming studies\Tomedia Web Team\AutoWhatsapp\05 - REST API\bin\Release\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\user\OneDrive\Programming studies\Tomedia Web Team\AutoWhatsapp\05 - REST API\bin\Release\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\user\OneDrive\Programming studies\Tomedia Web Team\AutoWhatsapp\05 - REST API\bin\Release\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\user\OneDrive\Programming studies\Tomedia Web Team\AutoWhatsapp\05 - REST API\bin\Release\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\user\OneDrive\Programming studies\Tomedia Web Team\AutoWhatsapp\05 - REST API\bin\Release\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\user\OneDrive\Programming studies\Tomedia Web Team\AutoWhatsapp\05 - REST API\bin\Release\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\user\OneDrive\Programming studies\Tomedia Web Team\AutoWhatsapp\05 - REST API\bin\Release\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\user\OneDrive\Programming studies\Tomedia Web Team\AutoWhatsapp\05 - REST API\bin\Release\netcoreapp3.1\01 - Data Access Layer.dll
+C:\Users\user\OneDrive\Programming studies\Tomedia Web Team\AutoWhatsapp\05 - REST API\bin\Release\netcoreapp3.1\02 - Business Model Layer.dll
+C:\Users\user\OneDrive\Programming studies\Tomedia Web Team\AutoWhatsapp\05 - REST API\bin\Release\netcoreapp3.1\03 - Business Logic Layer.dll
+C:\Users\user\OneDrive\Programming studies\Tomedia Web Team\AutoWhatsapp\05 - REST API\bin\Release\netcoreapp3.1\04 - Handle Data Layer.dll
+C:\Users\user\OneDrive\Programming studies\Tomedia Web Team\AutoWhatsapp\05 - REST API\bin\Release\netcoreapp3.1\04 - Handle Data Layer.pdb
+C:\Users\user\OneDrive\Programming studies\Tomedia Web Team\AutoWhatsapp\05 - REST API\bin\Release\netcoreapp3.1\01 - Data Access Layer.pdb
+C:\Users\user\OneDrive\Programming studies\Tomedia Web Team\AutoWhatsapp\05 - REST API\bin\Release\netcoreapp3.1\02 - Business Model Layer.pdb
+C:\Users\user\OneDrive\Programming studies\Tomedia Web Team\AutoWhatsapp\05 - REST API\bin\Release\netcoreapp3.1\03 - Business Logic Layer.pdb
+C:\Users\user\OneDrive\Programming studies\Tomedia Web Team\AutoWhatsapp\05 - REST API\obj\Release\netcoreapp3.1\05 - REST API.csprojAssemblyReference.cache
+C:\Users\user\OneDrive\Programming studies\Tomedia Web Team\AutoWhatsapp\05 - REST API\obj\Release\netcoreapp3.1\05 - REST API.AssemblyInfoInputs.cache
+C:\Users\user\OneDrive\Programming studies\Tomedia Web Team\AutoWhatsapp\05 - REST API\obj\Release\netcoreapp3.1\05 - REST API.AssemblyInfo.cs
+C:\Users\user\OneDrive\Programming studies\Tomedia Web Team\AutoWhatsapp\05 - REST API\obj\Release\netcoreapp3.1\05 - REST API.csproj.CoreCompileInputs.cache
+C:\Users\user\OneDrive\Programming studies\Tomedia Web Team\AutoWhatsapp\05 - REST API\obj\Release\netcoreapp3.1\05 - REST API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\user\OneDrive\Programming studies\Tomedia Web Team\AutoWhatsapp\05 - REST API\obj\Release\netcoreapp3.1\05 - REST API.RazorTargetAssemblyInfo.cache
+C:\Users\user\OneDrive\Programming studies\Tomedia Web Team\AutoWhatsapp\05 - REST API\obj\Release\netcoreapp3.1\05 - REST API.csproj.CopyComplete
+C:\Users\user\OneDrive\Programming studies\Tomedia Web Team\AutoWhatsapp\05 - REST API\obj\Release\netcoreapp3.1\staticwebassets\05 - REST API.StaticWebAssets.Manifest.cache
+C:\Users\user\OneDrive\Programming studies\Tomedia Web Team\AutoWhatsapp\05 - REST API\obj\Release\netcoreapp3.1\staticwebassets\05 - REST API.StaticWebAssets.xml
+C:\Users\user\OneDrive\Programming studies\Tomedia Web Team\AutoWhatsapp\05 - REST API\obj\Release\netcoreapp3.1\05 - REST API.dll
+C:\Users\user\OneDrive\Programming studies\Tomedia Web Team\AutoWhatsapp\05 - REST API\obj\Release\netcoreapp3.1\05 - REST API.pdb
+C:\Users\user\OneDrive\Programming studies\Tomedia Web Team\AutoWhatsapp\05 - REST API\obj\Release\netcoreapp3.1\05 - REST API.genruntimeconfig.cache

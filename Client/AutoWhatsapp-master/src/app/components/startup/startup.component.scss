@@ -1,0 +1,70 @@
+.startup-comp-wrap {
+  background: #06d755;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  .startup-heading {
+    color: white;
+    font-size: 5rem;
+    letter-spacing: 6px;
+    font-family: "Ploni DL 1.1 AAA Light";
+    text-shadow: 0px 0px 6px #939393bd;
+  }
+  .startup-credit {
+    color: white;
+    font-size: 1.5rem;
+    letter-spacing: 4px;
+    padding-top: 20px;
+    font-family: "Ploni DL 1.1 AAA Light";
+    text-shadow: 0px 0px 4px #797979;
+  }
+}
+:host ::ng-deep {
+  .mat-form-field-invalid .mat-input-element,
+  .mat-form-field.mat-warn .mat-input-element {
+    caret-color: #f44336;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+  .startup-comp-wrap {
+    .startup-heading {
+      font-size: 4rem;
+      letter-spacing: 6px;
+    }
+    .startup-credit {
+      padding-top: 6px;
+      font-size: 1.35rem;
+    }
+  }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+  .startup-comp-wrap {
+    .startup-heading {
+      font-size: 3.5rem;
+      letter-spacing: 6px;
+      margin-bottom: 5px;
+    }
+    .startup-credit {
+      padding-top: 6px;
+      font-size: 1.2rem;
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  .startup-comp-wrap {
+    .startup-heading {
+      font-size: 2rem;
+      letter-spacing: 6px;
+      margin-bottom: 5px;
+    }
+    .startup-credit {
+      padding-top: 6px;
+      font-size: 1rem;
+    }
+  }
+}

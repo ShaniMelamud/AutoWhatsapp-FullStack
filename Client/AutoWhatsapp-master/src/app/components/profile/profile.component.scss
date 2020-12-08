@@ -1,0 +1,125 @@
+.profile-comp-wrap {
+  padding: 4rem;
+  .profile-section {
+    .profile-heading {
+      letter-spacing: 2px;
+      font-family: "Ploni DL 1.1 AAA Light";
+      color: #3a694c;
+      font-size: 1.8rem;
+      line-height: 1.75rem;
+      margin-bottom: 1rem;
+      font-weight: 600;
+      text-shadow: 0px 0px 4px #7979792c;
+    }
+    .input-field {
+      width: 100%;
+      font-size: 1rem;
+      font-family: "Ploni DL 1.1 AAA Light";
+      color: #2b5039;
+      font-weight: 600;
+      text-shadow: 0px 0px 4px #7979792c;
+    }
+    .profile-btn {
+      margin-top: 1.2rem;
+      width: 100%;
+      font-size: 1.7rem;
+      line-height: 3.6rem;
+      padding: 0.5rem;
+      height: 70px;
+      border-radius: 10px;
+      background-color: #407597;
+      letter-spacing: 2px;
+      font-family: "Ploni DL 1.1 AAA Light";
+      
+    }
+  }
+  .profile-img {
+    text-align: center;
+    img {
+      margin-top: 3rem;
+      width: 80%;
+      height: 100%;
+      min-height: 400px;
+    }
+  }
+}
+
+@media (min-width: 993px) and (max-width: 1100px) {
+  .profile-comp-wrap {
+    .profile-img {
+      img {
+        width: 100%;
+      }
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  .profile-comp-wrap {
+    padding: 2rem;
+    .profile-img {
+      img {
+        width: 100%;
+      }
+    }
+  }
+}
+
+:host::ng-deep {
+  mat-hint {
+    color: #407597;
+    font-weight: 500;
+    font-family: "Ploni DL 1.1 AAA Light";
+    font-size: 1rem;
+    position: relative;
+    top: -4px;
+  }
+  .mat-form-field {
+    .mat-input-element {
+      //   color: slategray;
+      caret-color: #2b5039;
+    }
+    .mat-form-field-label {
+      color: #2b5039;
+    }
+    .mat-form-field-underline {
+      //   background-color: slategray;
+    }
+    .mat-form-field-ripple {
+      //   background-color: slategray;
+    }
+    .mat-form-field-required-marker {
+      //   color: slategray;
+    }
+  }
+
+  .mat-form-field.mat-focused {
+    .mat-form-field-label {
+      // color: #ff884d;
+    }
+    .mat-form-field-ripple {
+      background-color: #000000;
+    }
+    .mat-form-field-required-marker {
+      // color: #ff884d;
+    }
+    .mat-input-element {
+      // color: #ff884d;
+    }
+  }
+
+  // .mat-form-field.mat-form-field-invalid {
+  //     .mat-input-element {
+  //         color: #ff33cc;
+  //     }
+  //     .mat-form-field-label {
+  //         color: #ff33cc;
+  //         .mat-form-field-required-marker {
+  //             color: #ff33cc;
+  //         }
+  //     }
+  //     .mat-form-field-ripple {
+  //         background-color: #ff33cc;
+  //     }
+  // }
+}
